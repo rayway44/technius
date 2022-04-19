@@ -1,0 +1,91 @@
+.profilePageBodyDiv {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.profileNavigation {
+    background: #F5F9FF 0% 0% no-repeat padding-box;
+    border-radius: 29px;
+}
+
+.profileNavigation {
+    padding: 2rem;
+}
+
+.sideNavElement {
+    display: flex;
+    align-items: center;
+    color: #3D337C;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sideNavElement span {
+    margin-left: 1rem;
+}
+
+.sideNavElement span:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.navigationDivider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 4px solid #462482;
+    width: 100%;
+}
+
+@media (max-width: 1920px) {
+    .profilePageBodyDiv {
+        display: flex;
+        align-items: flex-start;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        justify-content: space-between;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+    }
+    
+    .profileNavigation {
+        background: #F5F9FF 0% 0% no-repeat padding-box;
+        border-radius: 1.5vw;
+    }
+    
+    .profileNavigation {
+        padding: 1.5vw;
+    }
+    
+    .sideNavElement {
+        display: flex;
+        align-items: center;
+        color: #3D337C;
+        font-size: 1.2vw;
+        font-weight: bold;
+    }
+
+    .sideNavElement img {
+        width: 1.5vw;
+    }
+    
+    .sideNavElement span {
+        margin-left: 1vw;
+    }
+    
+    .sideNavElement span:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    
+    .navigationDivider {
+        margin-top: 0.8vw;
+        margin-bottom: 0.8vw;
+        border-top: 0.2vw solid #462482;
+        width: 100%;
+    }
+}

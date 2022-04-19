@@ -1,0 +1,117 @@
+.footerRoot {
+    
+}
+
+.footerTop {
+    background: #3B018C;
+    padding-top: 1rem;
+}
+
+.footerTopFlexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inPartnershipWith {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.managedBy {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footerBottom{
+    background: #2D006C;
+}
+
+.footerBottomFlexbox {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+}
+
+.getInTouchText {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+}
+
+.contactInfo {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.techniusLogo {
+    padding-top: 0.5rem;
+}
+
+.privacyPolicyTermsAndConditions {
+    color: #fff;
+    display: flex;
+    font-size: 22px;
+    gap: 2rem;
+}
+
+@media (max-width: 1920px) {
+    .footerTop {
+        padding-top: 1vw;
+    }
+    
+    .inPartnershipWith {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .inPartnershipWith img {
+        width: 25vw;
+    }
+    
+    .managedBy {
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+
+    .managedBy img {
+        width: 15vw;
+    }
+    
+    
+    .getInTouchText {
+        color: #fff;
+        font-family: 'Montserrat';
+        font-size: 1.2vw;
+        margin-bottom: 0.5vw;
+    }
+    
+    .contactInfo {
+        color: #fff;
+        font-family: 'Montserrat';
+        font-size: 1.2vw;
+        font-weight: bold;
+        margin-top: 0.5vw;
+    }
+    
+    .techniusLogo {
+        padding-top: 0.5vw;
+    }
+
+    .techniusLogo img {
+        width: 18vw;
+    }
+
+    .privacyPolicyTermsAndConditions {
+        font-size: 1.2vw;
+        gap: 1.8vw;
+    }
+
+    .footerBottomFlexbox {
+        gap: 8vw;
+    }
+}

@@ -1,0 +1,98 @@
+.careerReportRoot {
+    background: transparent linear-gradient(180deg, #0D063F 0%, #281973 100%) 0% 0% no-repeat padding-box;
+    background-position-y: 50px;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    padding: 0 3rem;
+}
+
+.careerReportHeader {
+    text-align: center;
+    background: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.careerReportBody {
+    display: flex;
+}
+
+.rocketDiv {
+    margin-left: -100px;
+}
+
+.careerReportText {
+    max-width: 900px;
+}
+
+.textHeader {
+    font-family: 'Nasalization';
+    font-size: 50px;
+    margin-top: 5rem;
+}
+
+.textBody {
+    margin-top: 3rem;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+.textList {
+    font-size: 30px;
+    line-height: 1.5em;
+    list-style-type: 'o';
+}
+
+@media (max-width: 1920px) {
+    .careerReportRoot {
+        background: transparent linear-gradient(180deg, #0D063F 0%, #281973 100%) 0% 0% no-repeat padding-box;
+        background-position-y: 3vw;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        padding: 0 2vw;
+    }
+    
+    .careerReportHeader {
+        text-align: center;
+        background: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .careerReportHeader img {
+        width: 46vw;
+    }
+    
+    .careerReportBody {
+        display: flex;
+    }
+    
+    .rocketDiv {
+        margin-left: -5.5vw;
+    }
+    
+    .careerReportText {
+        max-width: 46.8vw;
+    }
+    
+    .textHeader {
+        font-family: 'Nasalization';
+        font-size: 2.7vw;
+        margin-top: 4.5vw;
+    }
+    
+    .textBody {
+        margin-top: 3vw;
+        font-size: 1.55vw;
+        line-height: 2.4vw;
+    }
+    
+    .textList {
+        font-size: 1.55vw;
+        line-height: 2.4vw;
+        list-style-type: 'o';
+        padding-left: 1vw;
+    }
+}

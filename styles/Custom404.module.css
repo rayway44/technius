@@ -1,0 +1,54 @@
+.custom404Root {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom404Text {
+    font-family: Nasalization;
+    font-size: 30px;
+    color: #462482;
+    margin: 3rem 0;
+}
+
+.custom404Button {
+    background: #FF7C00 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    color: #fff;
+    font-family: Nasalization;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    padding: 1.5rem 5rem;
+}
+
+.custom404Button:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 1920px) {
+    .custom404Root img {
+        width: 31vw;
+    }
+
+    .custom404Text {
+        font-family: Nasalization;
+        font-size: 1.55vw;
+        color: #462482;
+        margin: 2.5vw 0;
+    }
+    
+    .custom404Button {
+        background: #FF7C00 0% 0% no-repeat padding-box;
+        border-radius: 2.5vw;
+        color: #fff;
+        font-family: Nasalization;
+        font-size: 1.3vw;
+        cursor: pointer;
+        border: none;
+        padding: 1.2vw 4vw;
+    }
+}

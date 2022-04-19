@@ -1,0 +1,117 @@
+.verifyBodyRoot {
+    color: #3D337C;
+    margin-top: 5rem;
+    padding: 0 2rem;
+}
+
+.verifyHeader {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.verifySubheader {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.verifyText {
+    font-size: 22px;
+}
+
+.verifyTextEmail {
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.verifyEmail {
+    padding: 0.7rem 1rem;
+    font-size: 22px;
+    opacity: 0.65;
+    color: #3B018C;
+    font-weight: bold;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    border: 1px #eee solid;
+    margin: 1rem 0;
+}
+
+.resendEmailButton {
+    background: #FF7C00 0% 0% no-repeat padding-box;
+    font-size: 18px;
+    border-radius: 19px;
+    cursor: pointer;
+    color: #fff;
+    width: fit-content;
+    padding: 0.6rem 2rem;
+}
+
+.resendEmailButton:hover {
+    opacity: 0.7;
+}
+
+.confirmAccountButton {
+    background: #FF7C00 0% 0% no-repeat padding-box;
+    font-size: 18px;
+    border-radius: 19px;
+    cursor: pointer;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.7rem 3rem;
+}
+
+.confirmAccountButton:hover {
+    opacity: 0.7;
+}
+
+
+@media (max-width: 1920px) {
+    .verifyBodyRoot {
+        color: #3D337C;
+        margin-top: 4vw;
+        padding: 0 3vw;
+    }
+    
+    .verifyHeader {
+        font-size: 2.6vw;
+    }
+    
+    .verifySubheader {
+        font-size: 1.15vw;
+    }
+    
+    .verifyText {
+        font-size: 1.15vw;
+    }
+    
+    .verifyTextEmail {
+        font-size: 1.15vw;
+    }
+    
+    .verifyEmail {
+        padding: 0.6vw 0.8vw;
+        font-size: 1.15vw;
+        opacity: 0.65;
+        border-radius: 0.5vw;
+        border: 0.01vw #eee solid;
+        margin: 0.8vw 0;
+    }
+    
+    .resendEmailButton {
+        font-size: 1vw;
+        border-radius: 1vw;
+        padding: 0.5vw 1.8vw;
+    }
+    
+    .resendEmailMessage {
+        font-size: 0.9vw;
+    }
+
+    .confirmAccountButton {
+        font-size: 1vw;
+        border-radius: 1vw;
+        padding: 0.6vw 1.8vw;
+        width: 26vw;
+    }
+}

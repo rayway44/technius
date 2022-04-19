@@ -1,0 +1,420 @@
+.homepageBodyRoot {
+    background-image: url('../../assets/homepageImages/spaceRockBackground.svg');
+    background-position: top 2rem right -100px;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 0 4rem;
+}
+
+.homepageTop {
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.discoverTitle {
+    font-family: 'Nasalization';
+    color: #1C105C;
+    font-size: 60px;
+    line-height: 80px;
+    padding-top: 5rem;
+}
+
+.discoverSubtitle {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #3D347E;
+    line-height: 40px;
+    padding-top: 3rem;
+    font-weight: 500;
+}
+
+.homepageBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutGame {
+    margin-top: 18rem;
+    max-width: 1400px
+}
+
+.aboutGameTitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Nasalization';
+    font-size: 60px;
+    color: #1C105D;
+}
+
+.aboutGameSubtitle {
+    color: #1C105D;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.learnMoreCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    height: 670px;
+    width: 540px;
+    border: 1px solid #707070;
+    background: transparent linear-gradient(180deg, #0D063F 0%, #281973 100%) 0% 0% no-repeat padding-box;
+    margin: 0 1rem;
+    border-radius: 23px 23px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnMoreButton {
+    color: #fff;
+    margin: 0 1rem;
+    margin-bottom: 10rem;
+    background: #FF7C00;
+    border-radius: 0px 0px 23px 23px;
+    height: 120px;
+    border: 1px solid #FF7C00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nasalization';
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.learnMoreButton:hover {
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 0.7;
+}
+
+.cardTitle {
+    color: #fff;
+    font-family: 'Nasalization';
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.cardText {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #A49CD8;
+}
+
+.whatIsItModal {
+    background: transparent linear-gradient(180deg, #0D063F 0%, #281973 100%) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+}
+
+.leftModalHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.leftModalHeaderTitle {
+    font-family: 'Nasalization';
+    color: #fff;
+    font-size: 60px;
+    margin-left:  5rem;
+}
+
+.leftModalText {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+.leftModalText p {
+    margin-top: 1rem;
+}
+
+.leftModalTextP5 {
+    margin-bottom: 4rem;
+}
+
+.whyPlayItModal {
+    background: transparent linear-gradient(180deg, #0D063F 0%, #281973 100%) 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+}
+
+.rightModalHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.rightModalHeaderTitle {
+    font-family: 'Nasalization';
+    color: #fff;
+    font-size: 60px;
+    margin-left:  5rem;
+}
+
+.rightModalText {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 5rem;
+}
+
+.rightModalText p {
+    margin-top: 1rem;
+}
+
+.joinMissionButton {
+    background: #FF7C00 0% 0% no-repeat padding-box;
+    color: #fff;
+    font-family: 'Nasalization';
+    border: none;
+    padding: 1.5rem 6rem;
+    margin-top: 4rem;
+    font-size: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.joinMissionButton:hover {
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 0.7;
+}
+
+.downIconDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+
+.downIconDiv img:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 1920px) {
+    .homepageBodyRoot {
+        background-size: 80%;
+        padding: 0 4vw;
+    }
+
+    .homepageTop {
+        padding-top: 2vw;
+    }
+
+    .discoverTitle {
+        font-size: 3vw;
+        line-height: 4vw;
+        padding-top: 2vw;
+    }
+    
+    .discoverSubtitle {
+        font-size: 1.5vw;
+        line-height: 2vw;
+        padding-top: 4vw;
+    }
+    .joinMissionButton {
+        padding: 1.5% 5%;
+        margin-top: 3vw;
+        font-size: 1.8vw;
+        border-radius: 50px;
+    }
+    .joinMissionButton img {
+        width: 13.8vw;
+        height: 2.2vw;
+    }
+    .aboutGame {
+        margin-top: 15vw;
+        max-width: 80%
+    }
+    
+    .aboutGameTitle {
+        display: flex;
+        justify-content: center;
+        font-family: 'Nasalization';
+        font-size: 3.2vw;
+        color: #1C105D;
+    }
+    
+    .aboutGameSubtitle {
+        color: #1C105D;
+        font-family: 'Montserrat';
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.55vw;
+        line-height: 2.1vw;
+        font-weight: 500;
+    }
+
+    .learnMoreCards {
+        width: 100%;
+    }
+
+    .learnMoreCards > :first-child {
+        margin-right: 2rem;
+    }
+
+    .learnMoreCards > :last-child {
+        margin-left: 2rem;
+    }
+    
+    .card {
+        width: 28vw;
+        height: auto;
+        border: 1px solid #707070;
+        background: transparent linear-gradient(180deg, #0D063F 0%, #281973 100%) 0% 0% no-repeat padding-box;
+        padding: 0 2.4vw;
+        padding-top: 1rem;
+        margin: 0;
+        border-radius: 1.1vw 1.1vw 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .learnMoreButton {
+        color: #fff;
+        padding: 0 0;
+        margin: 0;
+        margin-bottom: 10vw;
+        background: #FF7C00;
+        border-radius: 0px 0px 1.1vw 1.1vw;
+        height: 6.5vw;
+        border: 1px solid #FF7C00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Nasalization';
+        font-size: 1.8vw;
+        cursor: pointer;
+    }
+    
+    .learnMoreButton:hover {
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    
+    .cardTitle {
+        color: #fff;
+        font-family: 'Nasalization';
+        font-size: 1.9vw;
+        margin-bottom: 0;
+    }
+    
+    .cardText {
+        text-align: center;
+        font-size: 1.6vw;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        color: #A49CD8;
+    }
+
+    .whatIsItModal {
+        border-radius: 1vw;
+    }
+
+    .whatIsItModal img {
+        width: 13vw;
+    }
+    
+    .leftModalHeader {
+        margin-top: 2vw;
+    }
+    
+    .leftModalHeaderTitle {
+        font-size: 3.5vw;
+        margin-left:  5vw;
+    }
+    
+    .leftModalText {
+        color: #fff;
+        font-family: 'Montserrat';
+        font-size: 1.3vw;
+        font-weight: 500;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2vw 4vw;
+    }
+    
+    .leftModalText p {
+        margin-top: 1vw;
+    }
+    
+    .leftModalTextP5 {
+        margin-bottom: 4vw;
+    }
+    
+    .whyPlayItModal {
+        border-radius: 1vw;
+    }
+
+    .whyPlayItModal img {
+        width: 13vw;
+    }
+    
+    .rightModalHeader {
+        margin-top: 2vw;
+    }
+    
+    .rightModalHeaderTitle {
+        font-family: 'Nasalization';
+        color: #fff;
+        font-size: 3.5vw;
+        margin-left:  5vw;
+    }
+    
+    .rightModalText {
+        color: #fff;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 1.3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2vw 4vw;
+    }
+    
+    .rightModalText p {
+        margin-top: 1vw;
+    }
+    
+    
+    .downIconDiv {
+        display: flex;
+        justify-content: center;
+        margin-top: 6vw;
+    }
+    
+    .downIconDiv img {
+        cursor: pointer;
+        width: 2.5vw;
+    }
+}

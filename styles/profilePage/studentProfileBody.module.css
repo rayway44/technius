@@ -1,0 +1,156 @@
+.profileBodyRoot {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 67px;
+    width: 80%;
+    height: 850px;
+    box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    -webkit-box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    -moz-box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileBody {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(#3B018C 20%, #fff 20%);
+    box-shadow: 0px 10px 10px #00000012;
+    border-radius: 15px 15px 61px 65px;
+}
+
+.profileImageDiv {
+    text-align: center;
+    margin-top: 2rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profileUpdater{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+    color: #3D337C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.profileUpdaterInput {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    color: #3B018C;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    width: 100%;
+}
+
+.profileUpdaterInput::placeholder {
+    color: #3B018C;
+    font-size: 18px;
+}
+
+.profileUpdaterInnerDiv {
+    width: 42%;
+}
+
+.updateInformationButton {
+    margin: 1rem auto;
+    background: #3B018C 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.updateInformationButton:hover {
+    opacity: 0.7;
+}
+
+.responseMessage {
+    color: #3B018C;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.buttonDisabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    z-index: -1;
+}
+
+@media (max-width: 1920px) {
+    .profileBodyRoot {
+        border-radius: 3.5vw;
+        width: 80%;
+        height: 41vw;
+        padding: 1.6vw;
+    }
+    
+    .profileBody {
+        width: 50%;
+        height: 100%;
+        background: linear-gradient(#3B018C 20%, #fff 20%);
+        box-shadow: 0px 10px 10px #00000012;
+        border-radius: 0.8vw 0.8vw 3.5vw 2.5vw;
+    }
+    
+    .profileImageDiv {
+        margin-top: 1.6vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .profileImageDiv img {
+        width: 10.5vw;
+    }
+    
+    .profileUpdater{
+        padding: 0.8vw 1.5vw;
+        font-size: 1vw;
+    }
+    
+    .profileUpdaterInput {
+        border-radius: 0.2vw;
+        margin-top: 0.4vw;
+        font-size: 1vw;
+        padding-top: 0.4vw;
+        padding-bottom: 0.4vw;
+        padding-left: 0.4vw;
+        width: 90%;
+    }
+    
+   
+    .profileUpdaterInput::placeholder {
+        font-size: 1vw;
+    }
+    
+    .profileUpdaterInnerDiv {
+        width: 100%;
+    }
+
+    .updateInformationButton {
+        margin-top: 0.9vw;
+        border-radius: 1.5vw;
+        font-size: 0.9vw;
+        padding: 0.8vw 1.7vw;
+    }
+
+    .responseMessage {
+        color: #3B018C;
+        margin-top: 0.3vw;
+        font-size: 0.8vw;
+    }
+}
