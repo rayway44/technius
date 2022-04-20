@@ -1,5 +1,5 @@
 const db = require('./mysqlConnection')
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcrypt')
 
 export default async (req, res) => {
     const body = req.body

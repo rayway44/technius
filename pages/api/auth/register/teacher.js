@@ -1,4 +1,4 @@
-const bcrypt = require('bcryptjs')
+const bcrypt = require('bcrypt')
 const db = require('../../mysqlConnection')
 const { v4: uuidv4 } = require('uuid');
 const jwt = require('jsonwebtoken')
