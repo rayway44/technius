@@ -12,7 +12,7 @@
     "@popperjs/core": "^2.9.2",
     "@svgr/webpack": "^5.5.0",
     "axios": "^0.21.1",
-    "bcrypt": "5.0.1",
+    "bcryptjs": "^2.4.3",
     "cookie": "^0.4.1",
     "file-loader": "^6.2.0",
     "js-cookie": "^3.0.0",
