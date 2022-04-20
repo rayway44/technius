@@ -11,7 +11,7 @@ export default function Scene4({ setCharacter, setCurrentScene }) {
     return (
         <>
             <video poster="/loading_screen.gif" playsInline onEnded={() => setVideoState('ended')} className={styles.backgroundVideo} autoPlay muted>
-                <source src={"missionAssets/IntroAndChooseCharacter.mp4"} type="video/mp4" />
+                <source src={"https://technius2022.s3.amazonaws.com/missionAssets/IntroAndChooseCharacter.mp4"} type="video/mp4" />
                 video not supported in this browser
             </video>
             {videoState === 'ended' && 
