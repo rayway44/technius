@@ -49,7 +49,7 @@ export default function Scene12({setCurrentScene, answers, setAnswers, setOpenSt
     }
 
     useEffect(() => {
-        setVideo("missionAssets/scene12/redScene12.mp4")
+        setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene12/redScene12.mp4")
         setPopupTime(15)
 
     }, [])
