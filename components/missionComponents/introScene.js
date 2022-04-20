@@ -26,7 +26,7 @@ export default function IntroScene({setCurrentScene}) {
     return (
         <>
             <video poster="/loading_screen.gif" playsInline ref={introScene} onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
-                <source src={"missionAssets/starsBackground.mp4"} type="video/mp4" />
+                <source src={"https://technius2022.s3.amazonaws.com/missionAssets/starsBackground.mp4"} type="video/mp4" />
                 video not supported in this browser
             </video>
             {videoTime > 0 && (

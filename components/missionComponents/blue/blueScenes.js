@@ -1,7 +1,7 @@
 import React from 'react'
-import Scene5 from 'https://technius2022.s3.amazonaws.com/missionAssets/scenes/scene5'
-import Scene6 from 'https://technius2022.s3.amazonaws.com/missionAssets/scenes/scene6'
-import Scene7 from 'https://technius2022.s3.amazonaws.com/missionAssets/scenes/scene7.js'
+import Scene5 from 'scenes/scene5.js'
+import Scene6 from 'scenes/scene6.js'
+import Scene7 from 'scenes/scene7.js'
 import Scene8 from './scenes/scene8.js'
 import Scene9 from './scenes/scene9.js'
 import Scene10 from './scenes/scene10.js'
@@ -12,6 +12,8 @@ import Scene14 from './scenes/scene14.js'
 import Scene15 from './scenes/scene15.js'
 import Scene16 from './scenes/scene16.js'
 import Scene17 from 'https://technius2022.s3.amazonaws.com/missionAssets/scenes/scene17.js'
+
+// https://technius2022.s3.amazonaws.com/missionAssets/scene5/blueScene5.mp4
 
 // https://technius2022.s3.amazonaws.com/missionAssets/scene5/YellowScene5.mp4
 
