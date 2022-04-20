@@ -50,13 +50,13 @@ export default function Scene9({setCurrentScene, answers, setAnswers, setOpenSta
 
     useEffect(() => {
         if (answers.scene8 === 'A') {
-            setVideo("missionAssets/scene9/scene9A.mp4")
+            setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene9/scene9A.mp4")
             setPopupTime(27)
         } else if(answers.scene8 === 'B') {
-            setVideo("missionAssets/scene9/greenScene9B.mp4")
+            setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene9/greenScene9B.mp4")
             setPopupTime(25)
         } else if(answers.scene8 === 'C') {
-            setVideo("missionAssets/scene9/greenScene9C.mp4")
+            setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene9/greenScene9C.mp4")
             setPopupTime(32)
         }
     })
