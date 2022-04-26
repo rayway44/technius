@@ -26,6 +26,7 @@ export default function Scene6({setCurrentScene, setOpenStartOverDialog}) {
         <>
             <video poster="/loading_screen.gif" playsInline ref={scene6} onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
                 <source src={"https://technius2022.s3.amazonaws.com/missionAssets/scene6/redScene6.mp4"} type="video/mp4" />
+                <source src={"https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene6/redScene6.webm"} type="video/webm" />
                 video not supported in this browser
             </video>
             { videoTime > 46 &&
