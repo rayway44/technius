@@ -25,7 +25,7 @@ export default function Scene10({setCurrentScene, answers, setAnswers, setOpenSt
     const [CHover, setCHover] = useState(false)
     const [activeButton, setActiveButton] = useState('')
     const [video, setVideo] = useState('')
-    const [webVideo, setWwebVideo] = useState('')
+    const [videoWeb, setWebVideo] = useState('')
     const [popupTime, setPopupTime] = useState(0)
 
 
@@ -52,15 +52,15 @@ export default function Scene10({setCurrentScene, answers, setAnswers, setOpenSt
     useEffect(() => {
         if (answers.scene9 === 'A') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/redScene10A.mp4")
-            setWwebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10A.webm")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10A.webm")
             setPopupTime(35)
         } else if(answers.scene9 === 'B') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/redScene10B.mp4")
-            setWwebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10B.webm")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10B.webm")
             setPopupTime(35)
         } else if(answers.scene9 === 'C') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/redScene10C.mp4")
-            setWwebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10C.webm")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10C.webm")
             setPopupTime(35)
         }
     })
