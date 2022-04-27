@@ -56,11 +56,11 @@ export default function Scene11({setCurrentScene, answers, setAnswers, setOpenSt
             setPopupTime(23)
         } else if(answers.scene10 === 'B') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene11/yellowScene11B&C.mp4")
-            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene11/yellowScene11B&C.webm")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene11/yellowScene11B%26C.webm")
             setPopupTime(23)
         } else if(answers.scene10 === 'C') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene11/yellowScene11B&C.mp4")
-            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene11/yellowScene11B&C")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene11/yellowScene11B%26C.webm")
             setPopupTime(23)
         }
     }, [])
