@@ -69,7 +69,8 @@ export default function Scene9({setCurrentScene, answers, setAnswers, setOpenSta
     return (
         <>
             <video poster="/loading_screen.gif" playsInline ref={scene9} onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
-                <source src={video} type="video/mp4" />
+                {/* <source src={video} type="video/mp4" /> */}
+                <source src={videoWeb} type="video/webm" />
                 <source src={videoWeb} type="video/webm" />
                 video not supported in this browser
             </video>
