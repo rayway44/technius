@@ -50,7 +50,8 @@ export default function Scene5({setOpenStartOverDialog, chosenItems, setChosenIt
     return (
         <>
             <video poster="/loading_screen.gif" playsInline ref={vid} onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
-                <source src={"https://technius2022.s3.amazonaws.com/missionAssets/scene5/yellowScene5.mp4"} type="video/mp4" />
+                {/* <source src={"https://technius2022.s3.amazonaws.com/missionAssets/scene5/yellowScene5.mp4"} type="video/mp4" /> */}
+                <source src={"https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene5/YellowScene5.webm"} type="video/webm" />
                 video not supported in this browser
             </video>
             { videoTime > 5 &&

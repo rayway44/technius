@@ -25,6 +25,7 @@ export default function Scene10({setCurrentScene, answers, setAnswers, setOpenSt
     const [CHover, setCHover] = useState(false)
     const [activeButton, setActiveButton] = useState('')
     const [video, setVideo] = useState('')
+    const [videoWeb, setWebVideo] = useState('')
     const [popupTime, setPopupTime] = useState(0)
 
 
@@ -51,12 +52,15 @@ export default function Scene10({setCurrentScene, answers, setAnswers, setOpenSt
     useEffect(() => {
         if (answers.scene9 === 'A') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/yellowScene10A.mp4")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/yellowScene10A.webm")
             setPopupTime(35)
         } else if(answers.scene9 === 'B') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/yellowScene10B.mp4")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/yellowScene10B.webm")
             setPopupTime(35)
         } else if(answers.scene9 === 'C') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/yellowScene10C.mp4")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/yellowScene10C.webm")
             setPopupTime(35)
         }
     })
@@ -65,7 +69,8 @@ export default function Scene10({setCurrentScene, answers, setAnswers, setOpenSt
     return (
         <>
             <video poster="/loading_screen.gif" playsInline ref={scene10} onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
-                <source src={video} type="video/mp4" />
+                {/* <source src={video} type="video/mp4" /> */}
+                <source src={videoWeb} type="video/webm" />
                 video not supported in this browser
             </video>
             { videoTime > popupTime &&
