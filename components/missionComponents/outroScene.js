@@ -23,7 +23,8 @@ export default function OutroScene({setCurrentScene}) {
     return (
         <>
             <video poster="/loading_screen.gif" playsInline ref={outroScene} onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
-                <source src={"https://technius2022.s3.amazonaws.com/missionAssets/starsBackground.mp4"} type="video/mp4" />
+                {/* <source src={"https://technius2022.s3.amazonaws.com/missionAssets/starsBackground.mp4"} type="video/mp4" /> */}
+                <source src={"hhttps://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/starsBackground.webm"} type="video/webm" />
                 video not supported in this browser
             </video>
             {videoTime > 0 && (
