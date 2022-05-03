@@ -21,8 +21,8 @@ export default function Scene7({setCurrentScene, setOpenStartOverDialog}) {
     return (
         <>
             <video poster="/loading_screen.gif" playsInline onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
-                {/* <source src={"https://technius2022.s3.amazonaws.com/missionAssets/scene7/yellowScene7.mp4"} type="video/mp4" /> */}
                 <source src={"https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene7/yellowScene7.webm"} type="video/webm" />
+                <source src={"https://technius2022.s3.amazonaws.com/missionAssets/scene7/yellowScene7.mp4"} type="video/mp4" />
                 video not supported in this browser
             </video>
             { videoTime > 45 &&
