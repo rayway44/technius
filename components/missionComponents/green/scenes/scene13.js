@@ -60,8 +60,8 @@ export default function Scene13({setCurrentScene, answers, setAnswers, setOpenSt
     return (
         <>
             <video poster="/loading_screen.gif" playsInline ref={scene13} onTimeUpdate={handleTimeChange} className={styles.backgroundVideo} autoPlay muted>
-                {/* <source src={video} type="video/mp4" /> */}
                 <source src={videoWeb} type="video/webm" />
+                <source src={video} type="video/mp4" />
                 video not supported in this browser
             </video>
             { videoTime > popupTime &&
