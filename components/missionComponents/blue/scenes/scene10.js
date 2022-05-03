@@ -51,15 +51,15 @@ export default function Scene10({setCurrentScene, answers, setAnswers, setOpenSt
     useEffect(() => {
         if (answers.scene9 === 'A') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/blueScene10A.mp4")
-            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10A.webm")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/blueScene10A.webm")
             setPopupTime(35)
         } else if(answers.scene9 === 'B') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/blueScene10B.mp4")
-            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10B.webm")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/blueScene10B.webm")
             setPopupTime(35)
         } else if(answers.scene9 === 'C') {
             setVideo("https://technius2022.s3.amazonaws.com/missionAssets/scene10/blueScene10C.mp4")
-            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/redScene10C.webm")
+            setWebVideo("https://technius-sydney.s3.ap-southeast-2.amazonaws.com/missionAssets/scene10/blueScene10C.webm")
             setPopupTime(35)
         }
     })
