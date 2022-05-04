@@ -1,5 +1,7 @@
 # Technius 
 
+![Alt text](file:///Users/rayletoa/Downloads/powered-by-vercel%20(2).svg?raw=true "Title")
+
 ### NextJS steps to launch dev environment
 
 1. npm install
