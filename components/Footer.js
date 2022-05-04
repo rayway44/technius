@@ -22,6 +22,10 @@ export default function Footer() {
                         <div className={styles.managedBy}>
                             <Image src={ManagedBy} alt="Mission Ready Logo" />
                         </div>
+
+                        <a href="https://www.vercel.com?utm_source=technius-ray&utm_campaign=oss">
+                            <Image src='/powered-by-vercel (2).svg' width='100%' height='100%' alt="Mission Ready Logo" />
+                        </a>
                     </div>
                 </Container>
             </div>
