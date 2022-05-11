@@ -326,6 +326,144 @@ export default (req, res) => {
         }
     }
 
+    //Scene 18 results
+    if (answers['scene18'] === 'A') { 
+        jobs.manager += 8;
+        qualities.interpersonal += 5;
+        qualities.collaboration += 3;
+    
+
+    } else if (answers['scene18'] === 'B') {
+        jobs.engineer += 5;  
+        jobs.administrator += 5; 
+        jobs.investigator += 5;
+        qualities.reflection += 2; 
+
+    } else if (answers['scene18'] === 'C') {
+        jobs.designer += 5; 
+        jobs.originator += 5; 
+        qualities.reflection += 5; 
+        qualities.interpersonal += 2;
+    }
+
+    //Scene 19 results
+    if (answers['scene19'] === 'A') { 
+        jobs.designer += 5;
+        qualities.self_management += 2;
+        qualities.creativity += 5;
+        qualities.analytical += 3;
+    
+
+    } else if (answers['scene19'] === 'B') {
+        jobs.engineer += 5;  
+        jobs.investigator += 5;
+        qualities.self_management += 2; 
+        qualities.creativity += 2; 
+        qualities.analytical += 5; 
+
+    } else if (answers['scene19'] === 'C') {
+        jobs.manager += 3; 
+        jobs.originator += 8; 
+        qualities.self_management += 5; 
+    }
+
+    //Scene 20 results
+    if (answers['scene20'] === 'A') { 
+        jobs.designer += 5;
+        qualities.self_management += 2;
+        qualities.creativity += 5;
+        qualities.analytical += 2;
+    
+
+    } else if (answers['scene20'] === 'B') {
+        jobs.engineer += 5;  
+        jobs.investigator += 5;
+        qualities.self_management += 2; 
+        qualities.creativity += 2; 
+        qualities.analytical += 5; 
+
+    } else if (answers['scene20'] === 'C') {
+        jobs.manager += 3; 
+        jobs.originator += 8; 
+        qualities.self_management += 5; 
+    }
+
+    //Scene 21 results
+    if (answers['scene21'] === 'A') { 
+        jobs.designer += 5;
+        qualities.self_management += 2;
+        qualities.creativity += 5;
+        qualities.analytical += 2;
+    
+
+    } else if (answers['scene21'] === 'B') {
+        jobs.engineer += 5;  
+        jobs.investigator += 5;
+        qualities.self_management += 2; 
+        qualities.creativity += 2; 
+        qualities.analytical += 5; 
+
+    } else if (answers['scene21'] === 'C') {
+        jobs.originator += 8; 
+        jobs.manager += 3; 
+        qualities.self_management += 5; 
+    }
+
+    //Scene 22 results
+    if (answers['scene22'] === 'A') { 
+        jobs.originator += 5;
+        jobs.manager += 5;
+        qualities.interpersonal += 5;
+        qualities.collaboration += 5;
+    
+
+    } else if (answers['scene22'] === 'B') {
+        jobs.engineer += 5;  
+        jobs.investigator += 5;
+
+
+    } else if (answers['scene22'] === 'C') {
+        jobs.designer += 8; 
+        qualities.creativity += 5; 
+    }
+
+    //Scene 23 results
+    if (answers['scene23'] === 'A') {
+        jobs.manager += 5;
+    
+
+    } else if (answers['scene23'] === 'B') {
+        jobs.designer += 5;
+        qualities.self_management += 5;  
+        qualities.analytical += 3;
+
+
+    } else if (answers['scene23'] === 'C') {
+        jobs.engineer += 5; 
+        jobs.investigator += 5; 
+        qualities.analytical += 5; 
+        qualities.reflection += 5; 
+    }
+
+    //Scene 24 results
+    if (answers['scene24'] === 'A') {
+        jobs.engineer += 3;
+        jobs.investigator += 3;
+    
+
+    } else if (answers['scene24'] === 'B') {
+        jobs.designer += 5;
+        qualities.creativity += 5;  
+        qualities.reflection += 5;
+
+
+    } else if (answers['scene24'] === 'C') {
+        jobs.originator += 5; 
+        jobs.manager += 5; 
+        qualities.collaboration += 5; 
+        qualities.reflection += 2; 
+    }
+
     //returns array of top two keys in qualities object
     var top_qualities = Object.keys(qualities).sort((a, b) => qualities[b] - qualities[a])
     top_qualities = top_qualities.slice(1)
