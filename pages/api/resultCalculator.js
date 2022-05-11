@@ -40,11 +40,12 @@ export default (req, res) => {
     if (answers) {
         //Scene 8 results
         if (answers['scene8'] === 'A') {
-            jobs.manager += 5; 
+            jobs.originator += 5; 
             qualities.problem_solving += 3
 
         } else if (answers['scene8'] === 'B') {
             jobs.designer += 5; 
+            jobs.manager += 8;
             qualities.interpersonal += 3; 
             qualities.problem_solving += 3;
 
@@ -57,203 +58,270 @@ export default (req, res) => {
 
         //Scene 9 results
         if (answers['scene9'] === 'A') {
-            jobs.developer += 8; 
-            jobs.manager += 8; 
+            jobs.originator += 3; 
+            jobs.engineer += 8; 
+            jobs.investigator += 5;
             qualities.problem_solving += 5; 
             qualities.self_management += 5
 
         } else if (answers['scene9'] === 'B') {
-            jobs.developer += 5; 
-            jobs.manager += 5; 
+            jobs.designer += 3; 
             qualities.problem_solving += 2; 
             qualities.self_management += 2;
 
         } else if (answers['scene9'] === 'C') {
-            qualities.self_management += 2
+            jobs.manager += 5;
+            qualities.self_management += 2;
 
         }
 
         //Scene 10 results
         if (answers['scene10'] === 'A') {
-            jobs.designer += 5; 
-            jobs.engineer += 2; 
-            jobs.investigator += 8;
-            qualities.interpersonal += 2; 
-            qualities.problem_solving += 5; 
-            qualities.creativity += 2; 
-            qualities.analytical += 2;
-
-        } else if (answers['scene10'] === 'B') {
-            jobs.designer += 8; 
-            jobs.engineer += 2; 
-            jobs.investigator += 5;
-            qualities.self_management += 5; 
-            qualities.interpersonal += 5; 
-            qualities.problem_solving += 5; 
-            qualities.creativity += 5;
-            qualities.analytical += 2;
-
-        } else if (answers['scene10'] === 'C') {
-            jobs.designer += 2; 
+            jobs.originator += 3; 
             jobs.engineer += 8; 
             jobs.investigator += 5;
+            // qualities.interpersonal += 2; 
+            qualities.problem_solving += 5; 
+            // qualities.creativity += 2; 
+            // qualities.analytical += 2;
+            qualities.self_management += 5;
+
+        } else if (answers['scene10'] === 'B') {
+            jobs.designer += 3; 
+            // jobs.engineer += 2; 
+            // jobs.investigator += 5;
             qualities.self_management += 2; 
+            // qualities.interpersonal += 5; 
             qualities.problem_solving += 2; 
-            qualities.analytical += 5;
+            // qualities.creativity += 5;
+            // qualities.analytical += 2;
+
+        } else if (answers['scene10'] === 'C') {
+            // jobs.designer += 2; 
+            // jobs.engineer += 8; 
+            // jobs.investigator += 5;
+            jobs.manager += 5;
+            qualities.self_management += 2; 
+            // qualities.problem_solving += 2; 
+            // qualities.analytical += 5;
             
         }
 
         //Scene 11 results
         if (answers['scene11'] === 'A') {
-            jobs.developer += 3; 
-            jobs.engineer += 5; 
-            qualities.interpersonal += 2; 
-            qualities.collaboration += 2;
+            // jobs.developer += 3;
+            jobs.originator += 3; 
+            jobs.engineer += 8; 
+            jobs.investigator += 5;
+            // qualities.interpersonal += 2; 
+            // qualities.collaboration += 2;
+            qualities.self_management += 5;
+            qualities.problem_solving += 5;
 
         } else if (answers['scene11'] === 'B') {
-            jobs.engineer += 8; 
+            // jobs.engineer += 8;
+            jobs.designer += 3;
+            qualities.problem_solving += 2;
+            qualities.self_management += 2;
 
         } else if (answers['scene11'] === 'C') {
-            jobs.designer += 8; 
-            jobs.developer += 5; 
-            qualities.interpersonal += 5; 
-            qualities.collaboration += 5;
-            qualities.reflection += 5
+            // jobs.designer += 8; 
+            // jobs.developer += 5; 
+            jobs.manager += 5;
+            // qualities.interpersonal += 5; 
+            // qualities.collaboration += 5;
+            // qualities.reflection += 5
+            qualities.self_management += 2;
             
         }
 
         //Scene 12 results
         if (answers['scene12'] === 'A') {
-            jobs.developer += 2; 
-            jobs.engineer += 8; 
-            jobs.originator += 5
-            qualities.problem_solving += 5; 
+            // jobs.developer += 2; 
+            jobs.engineer += 5; 
+            // jobs.originator += 5
+            qualities.problem_solving += 5;
+            qualities.interpersonal += 2;
+            qualities.creativity += 2;
+            qualities.analytical += 2; 
 
         } else if (answers['scene12'] === 'B') {
-            jobs.developer += 5; 
-            jobs.engineer += 2;             
-            jobs.originator += 8;
-            qualities.problem_solving += 3; 
-            qualities.analytical += 5;
+            // jobs.developer += 5; 
+            // jobs.engineer += 2;             
+            // jobs.originator += 8;
+            jobs.designer += 8;
+            jobs.investigator += 5;
+            qualities.problem_solving += 5; 
+            qualities.interpersonal += 2;
+            qualities.self_management += 5;
+            qualities.creativity += 5;
+            qualities.analytical += 2;
 
         } else if (answers['scene12'] === 'C') {
-            jobs.developer += 8; 
-            jobs.engineer += 5; 
-            jobs.originator += 2;
-            qualities.problem_solving += 3; 
-            qualities.analytical += 3;
+            // jobs.developer += 8; 
+            // jobs.engineer += 5; 
+            jobs.manager += 5;
+            jobs.originator += 5;
+            qualities.problem_solving += 2; 
+            qualities.analytical += 5;
+            qualities.self_management += 2;
             
         }
 
         //Scene 13 results
         if (answers['scene13'] === 'A') {
-            jobs.developer += 2; 
-            jobs.manager += 8;
-            jobs.engineer += 2; 
-            qualities.interpersonal += 5; 
-            qualities.collaboration += 3;
+            // jobs.developer += 2; 
+            // jobs.manager += 8;
+            jobs.engineer += 5; 
+            qualities.problem_solving += 5;
+            qualities.interpersonal += 2;
+            qualities.creativity += 2 
+            // qualities.collaboration += 3;
+            qualities.analytical += 2;
 
         } else if (answers['scene13'] === 'B') {
-            jobs.developer += 5; 
-            jobs.manager += 2;
-            jobs.engineer += 8; 
-            qualities.reflection += 2; 
+            // jobs.developer += 5; 
+            // jobs.manager += 2;
+            // jobs.engineer += 8; 
+            jobs.designer += 8;
+            jobs.investigator += 5;
+            qualities.problem_solving += 5;
+            qualities.interpersonal  += 5;
+            qualities.self_management  += 5;
+            qualities.analytical += 2;
+            qualities.creativity += 5;
+            // qualities.reflection += 2; 
 
         } else if (answers['scene13'] === 'C') {
-            jobs.developer += 8; 
+            // jobs.developer += 8; 
             jobs.manager += 5;
-            jobs.engineer += 5; 
-            qualities.interpersonal += 2; 
-            qualities.reflection += 5;
+            // jobs.engineer += 5; 
+            jobs.originator += 5
+            // qualities.interpersonal += 2; 
+            // qualities.reflection += 5;
+            qualities.problem_solving += 2;
+            qualities.self_management += 2;
+            qualities.analytical += 5;
             
         }
 
         //Scene 14 results
         if (answers['scene14'] === 'A') {
-            jobs.originator += 5; 
-            jobs.developer += 8; 
-            jobs.investigator += 2; 
-            qualities.self_management += 2; 
-            qualities.creativity += 5;
+            // jobs.originator += 5; 
+            // jobs.developer += 8; 
+            // jobs.investigator += 2; 
+            jobs.engineer += 5;
+            // qualities.self_management += 2; 
+            qualities.creativity += 2;
             qualities.analytical += 2;
+            qualities.problem_solving += 5;
+            qualities.interpersonal += 2;
+
 
         } else if (answers['scene14'] === 'B') {
-            jobs.originator += 5; 
-            jobs.developer += 2; 
-            jobs.investigator += 8; 
-            qualities.self_management += 2; 
-            qualities.creativity += 2;
-            qualities.analytical += 5;
+            // jobs.originator += 5; 
+            // jobs.developer += 2; 
+            jobs.designer += 8;
+            jobs.investigator += 5; 
+            qualities.self_management += 5; 
+            qualities.creativity += 5;
+            qualities.analytical += 2;
+            qualities.problem_solving += 5;
+            qualities.interpersonal += 5;
 
         } else if (answers['scene14'] === 'C') {
-            jobs.originator += 8; 
-            jobs.developer += 3; 
-            jobs.investigator += 3; 
-            qualities.self_management += 5; 
+            jobs.originator += 5;
+            jobs.manager += 5; 
+            // jobs.developer += 3; 
+            // jobs.investigator += 3; 
+            qualities.self_management += 2;
+            qualities.problem_solving += 2;
+            qualities.analytical += 5; 
             
         }
 
         //Scene 15 results
         if (answers['scene15'] === 'A') {
-            jobs.developer += 8; 
-            jobs.engineer += 2; 
+            // jobs.developer += 8; 
+            // jobs.engineer += 2; 
             jobs.investigator += 5; 
-            qualities.interpersonal += 5; 
-            qualities.collaboration += 5
+            qualities.interpersonal += 2; 
+            qualities.collaboration += 2;
 
         } else if (answers['scene15'] === 'B') {
-            jobs.engineer += 8; 
-            jobs.investigator += 5; 
+            jobs.engineer += 5; 
+            // jobs.investigator += 5; 
 
         } else if (answers['scene15'] === 'C') {
-            jobs.developer += 5; 
-            jobs.engineer += 2; 
-            jobs.investigator += 8; 
-            qualities.creativity += 5;
+            // jobs.developer += 5; 
+            // jobs.engineer += 2; 
+            // jobs.investigator += 8; 
+            jobs.originator += 5;
+            jobs.designer += 5;
+            jobs.manager += 5;
+            // qualities.creativity += 5;
+            qualities.interpersonal += 5;
+            qualities.collaboration += 5;
+            qualities.reflection += 5;
             
         }
 
         //Scene 16 results
         if (answers['scene16'] === 'A') {
-            jobs.originator += 2;  
-            jobs.designer += 2; 
-            jobs.manager += 8;
+            // jobs.originator += 2;  
+            // jobs.designer += 2; 
+            // jobs.manager += 8;
+            jobs.investigator += 5;
+            qualities.interpersonal += 2;
+            qualities.collaboration += 2;
+        
 
         } else if (answers['scene16'] === 'B') {
-            jobs.originator += 8;  
-            jobs.designer += 5; 
-            jobs.manager += 2;
-            qualities.self_management += 5; 
-            qualities.analytical += 3;
+            // jobs.originator += 8;  
+            // jobs.designer += 5; 
+            // jobs.manager += 2;
+            jobs.engineer += 5;
+            // qualities.self_management += 5; 
+            // qualities.analytical += 3;
 
         } else if (answers['scene16'] === 'C') {
-            jobs.originator += 5;  
-            jobs.designer += 8; 
-            jobs.manager += 2;
+            jobs.originator += 3;  
+            jobs.designer += 5; 
+            jobs.manager += 5;
             qualities.reflection += 5; 
-            qualities.analytical += 5;
+            // qualities.analytical += 5;
+            qualities.interpersonal += 5;
+            qualities.collaboration += 5;
+
             
         }
 
-        //Scene 17 results
+        //Scene 17 results 12/05/22 added scenes 18-24 today
         if (answers['scene17'] === 'A') {
-            jobs.originator += 8;  
-            jobs.designer += 2; 
+            // jobs.originator += 5;  
+            // jobs.designer += 2; 
             jobs.manager += 5;
+            qualities.problem_solving += 5;
 
         } else if (answers['scene17'] === 'B') {
             jobs.originator += 5;  
-            jobs.designer += 8; 
-            jobs.manager += 2;
-            qualities.reflection += 5; 
-            qualities.creativity += 5;
+            jobs.designer += 5; 
+            // jobs.manager += 2;
+            // qualities.reflection += 5; 
+            // qualities.creativity += 5;
+            qualities.problem_solving += 3;
+            qualities.analytical += 5;
 
         } else if (answers['scene17'] === 'C') {
-            jobs.originator += 2;  
-            jobs.designer += 5; 
-            jobs.manager += 8;
-            qualities.collaboration += 5; 
-            qualities.reflection += 2;
+            // jobs.originator += 2;  
+            // jobs.designer += 5; 
+            // jobs.manager += 8;
+            jobs.engineer += 5;
+            jobs.investigator += 5
+            // qualities.collaboration += 5; 
+            // qualities.reflection += 2;
+            qualities.problem_solving += 3;
+            qualities.analytical += 3; 
             
         }
     }
