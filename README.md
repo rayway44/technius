@@ -1,5 +1,7 @@
 # Technius 
 
+![alt text](https://github.com/rayway44/technius/blob/rayFeature/public/powered-by-vercel%20(2).svg)
+
 ### NextJS steps to launch dev environment
 
 1. npm install

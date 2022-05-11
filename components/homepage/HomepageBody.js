@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect} from 'react'
 import Container from '@material-ui/core/Container'
 import styles from '../../styles/homepage/homepageBody.module.css'
 import Planets from '../../assets/homepageImages/planets.png'
@@ -22,6 +22,21 @@ export default function HomepageBody({ user, setSignupOpen }) {
     const scrollToDiv = useRef(null)
     const matches = useMediaQuery('(min-width: 1600px)')
 
+    useEffect(() => {
+        const browser = navigator.userAgent
+        const chrome = browser.search(/Safari|Chrome/)
+
+        console.log(chrome)
+        
+        if(chrome > 90){
+            console.log('You are ON SAFARI')
+            
+        } else {
+            console.log('You are NOT on SAFARI')
+            
+        }
+    })
+
 
     return (
         <div className={styles.homepageBodyRoot}>
@@ -36,7 +51,7 @@ export default function HomepageBody({ user, setSignupOpen }) {
                         The game plan is simple – Join us on the<br/>
                         Mission to Planet Technius, solve the mission<br/>
                         challenges, select a path and discover your<br/>
-                        career options in the IT Industry.
+                        career options in the IT Industry. CHANGED 
                     </div>
                         <div>
                             {user 
