@@ -326,6 +326,10 @@ export default (req, res) => {
         }
     }
 
+
+// added this for an example
+
+
     //Scene 18 results
     if (answers['scene18'] === 'A') { 
         jobs.manager += 8;
