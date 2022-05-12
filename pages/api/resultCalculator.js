@@ -325,7 +325,7 @@ export default (req, res) => {
             
         }
     }
-
+    
 
     
     //returns array of top two keys in qualities object
