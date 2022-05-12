@@ -326,6 +326,8 @@ export default (req, res) => {
         }
     }
 
+
+    
     //returns array of top two keys in qualities object
     var top_qualities = Object.keys(qualities).sort((a, b) => qualities[b] - qualities[a])
     top_qualities = top_qualities.slice(1)
