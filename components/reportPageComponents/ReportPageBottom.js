@@ -10,7 +10,12 @@ export default function ReportPageBottom({ careerRec }) {
 
     return (
         <div className={styles.reportPageBottomRoot}>
-            <Report className={styles.ReportStyles} />
+            <div className={styles.box}>
+                <Report className={styles.ReportStyles} />
+                <a href=''><div className={styles.bTesting}>
+                        CLICK HERE
+                </div></a>
+            </div>
         </div>
     )
 }
