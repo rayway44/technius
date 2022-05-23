@@ -51,7 +51,7 @@ export default function StudentSignup({
                 </div>
             </div>
             <div className={styles.inputFields}>
-                {/* <div className={styles.firstNameField}>
+                <div className={styles.firstNameField}>
                     <p className={styles.inputLabel}>
                         First name
                         <span >*</span>
@@ -64,7 +64,7 @@ export default function StudentSignup({
                         <span >*</span>
                     </p>
                     <input value={lastname} onChange={(e) => setLastname(e.target.value)} className={clsx(styles.InputBox, {[styles.emptyInput]: submitAttempted && lastname === ''})} placeholder="type here"></input>
-                </div> */}
+                </div>
             </div>
             <div className={styles.inputFields}>
                 <div>
