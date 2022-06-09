@@ -2,7 +2,9 @@ import React, { useState, useEffect } from 'react'
 import styles from '../styles/reportPage/reportPage.module.css'
 import ReportPageTop from '../components/reportPageComponents/ReportPageTop'
 import ReportPageBottom from '../components/reportPageComponents/ReportPageBottom'
+import ReportStudentResults from '../components/reportPageComponents/ReportStudentResults'
 import Container from '@material-ui/core/Container'
+
 import { useRouter } from 'next/router'
 import axios from 'axios'
 import Error from 'next/error'
@@ -25,7 +27,10 @@ export default function report({userInfo, reportResults}) {
         <div>
             <div className={styles.reportPageRoot}>
                 <Container maxWidth="lg" >
+                
+                    <ReportStudentResults/>
                     <ReportPageTop attr1={reportResults.attr1} attr2={reportResults.attr2} careerRec={reportResults.career_rec}/>
+                    
                     <ReportPageBottom careerRec={reportResults.career_rec} />
                 </Container>
             </div>
