@@ -1,0 +1,168 @@
+@font-face {
+    font-family: dyslexic;
+    src: url(../../assets/Fonts/dyslexic/OpenDyslexic-Regular.otf);
+  }
+
+.resultsBody{
+    /* border: 8px solid white; */  
+    font-family: "dyslexic";
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:100%;
+    
+}
+
+.skillsTop{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.topSection{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    text-align:center
+}
+
+.topSection span{
+    font-size: 2em;
+}
+
+.mainAttribute{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    /* width: 60vw; */
+}
+
+.mainAttributeTitle{
+    /* border: 1px solid red; */
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    background-image: linear-gradient(left , rgba(88, 3, 216, 0.969), 
+    rgba(96, 0, 232, 0.302) );
+    /* width:10vw; */
+    /* padding: 0% 15% 0% 15%; */
+    text-align: center;
+    padding: 20px 20px;
+    margin:0% 0% 0% -10%;
+}
+.mainAttributeTitle span{
+    
+}
+
+.skillsSection{
+    /* border: 1px solid red; */
+    padding:20px;
+    display: flex;
+    background: url('../../assets/reportAssets/Vector.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60vw;
+    height: auto;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+
+.skillsLeft{
+    /* border: 1px solid red; */
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.skillsLeftTitle{
+    /* border: 1px solid red; */
+    margin:5% 0% 0% 0%;
+}
+
+.AttributesTopSection{
+    /* border: 1px solid red; */
+    margin:2% 0% 2% 0%;
+}
+
+
+.skillsLeftSkills{
+    /* border: 4px solid white; */
+    display: flex;
+    margin:5% 0%;
+}
+
+.skillsLeftSkillsHolder{
+    /* border: 4px solid green; */
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.skillsLeftImage{
+    /* border: 4px solid white; */
+    margin-top:2vh;
+    min-width:8vw;
+    text-align: right;
+    
+}
+
+.skillsLeftContent{
+    /* border: 4px solid red; */
+    /* width: 50%; */
+    margin: 0% 0% 0% 2%;
+    line-height:3.5vh;
+
+}
+.skillsLeftContent span{
+    display: block;
+}
+.skillsLeftContentTitle{
+    /* border: 4px solid red; */
+    font-size: 1.4vw;
+    font-weight: 700;
+    margin: 0% 0% 5% 0%;
+}
+
+.skillsRightImage{
+    /* border: 4px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 90%;
+}
+
+.skillsRightTitle{
+    /* border: 1px solid white; */
+    margin:5% 0% 0% 0%;
+}
+.topJobsSection{
+    /* border: 1px solid white; */
+    margin:3% 0% 0% 0%;
+}
+.topJobsSection span{
+    display: block;
+    text-align:center;
+    margin:3% 0% 0% 0%;
+}
+.topJobsSectionTitle{
+    font-size: 2em;
+    line-height:1.2em;
+}
+.bottomJobsSection{
+    border-bottom: 10px dashed rgba(209, 178, 255, 1);
+    display: flex;
+    justify-content:space-around;
+    width: 60vw;
+    /* margin:4% 0% 0% 0%; */
+}
+.bottomJobsLeftTop{
+    margin:14% 0% 0% 0%;
+    /* border: 1px solid white; */
+    min-height: 35vh;
+    
+}
+.bottomJobsLeftBottom{
+    /* border: 1px solid green; */
+    margin:-20% 0% 5% 0%;
+    /* text-align: center; */
+
+}

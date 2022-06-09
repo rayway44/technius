@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import styles from '../../styles/reportPage/reportPage.module.css'
 import spaceman from '../../assets/reportAssets/spaceMan.svg'
 import skillsSolarSystem from '../../assets/reportAssets/skillsSolarSystem.svg'
+
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 
