@@ -4,14 +4,14 @@
   }
 
 .resultsBody{
-    /* border: 8px solid white; */  
+    /* border: 28px solid white;   */
     font-family: "dyslexic";
     color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size:100%;
-    
+    margin:0% 0% 4% 0%
 }
 
 .skillsTop{
@@ -20,7 +20,7 @@
 }
 
 .topSection{
-    /* border: 1px solid white; */
+    /* border: 10px solid white; */
     display: flex;
     flex-direction: column;
     text-align:center
@@ -38,22 +38,23 @@
 }
 
 .mainAttributeTitle{
-    /* border: 1px solid red; */
+
     clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
-    background-image: linear-gradient(left , rgba(88, 3, 216, 0.969), 
+    background-image: linear-gradient(to left, rgba(88, 3, 216, 0.969), 
     rgba(96, 0, 232, 0.302) );
     /* width:10vw; */
     /* padding: 0% 15% 0% 15%; */
     text-align: center;
-    padding: 20px 20px;
+    padding: 20px 40px;
     margin:0% 0% 0% -10%;
+    font-size: 2em;
 }
 .mainAttributeTitle span{
     
 }
 
 .skillsSection{
-    /* border: 1px solid red; */
+    /* border: 10px solid red; */
     padding:20px;
     display: flex;
     background: url('../../assets/reportAssets/Vector.png');
@@ -78,7 +79,7 @@
 }
 
 .AttributesTopSection{
-    /* border: 1px solid red; */
+    /* border: 10px solid red; */
     margin:2% 0% 2% 0%;
 }
 
@@ -150,10 +151,18 @@
 .bottomJobsSection{
     border-bottom: 10px dashed rgba(209, 178, 255, 1);
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     width: 60vw;
-    /* margin:4% 0% 0% 0%; */
 }
+
+.bottomJobsLeft{
+    /* border: 10px solid red; */
+}
+.bottomJobsRight{
+    margin:0% 0% 0% 10%;
+    /* border: 10px solid red; */
+}
+
 .bottomJobsLeftTop{
     margin:14% 0% 0% 0%;
     /* border: 1px solid white; */
@@ -163,6 +172,5 @@
 .bottomJobsLeftBottom{
     /* border: 1px solid green; */
     margin:-20% 0% 5% 0%;
-    /* text-align: center; */
-
 }
+

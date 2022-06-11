@@ -43,7 +43,7 @@ export default function ReportPageTop({ attr1, attr2, careerRec }) {
     return (
         <div className={styles.reportPageTopRoot}>
             <div className={styles.header}>
-                <div className={styles.headerText}>{careerRec}<br/><span class={styles.congrats}>CONGRATULATIONS</span> </div>
+                <div className={styles.headerText}>{careerRec}<br/><span className={styles.congrats}>CONGRATULATIONS</span> </div>
                 <Image width={115 * 2} height={189 * 2} src={spaceman} alt="picture of an astronaut standing on a planet" />
             </div>
             <div className={styles.mySuperpowers}>
