@@ -7,6 +7,7 @@ export default function ReportPageBottom({ careerRec }) {
     const Report = dynamic(() => import(`../../assets/reportAssets/${careerRec}.report.svg`))
     
     console.log(careerRec)
+    console.log(`asdas ${careerRec}`)
 
     return (
         <div className={styles.reportPageBottomRoot}>

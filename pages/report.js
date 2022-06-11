@@ -28,7 +28,8 @@ export default function report({userInfo, reportResults}) {
             <div className={styles.reportPageRoot}>
                 <Container maxWidth="lg" >
                 
-                    <ReportStudentResults/>
+                    <ReportStudentResults careerRec={reportResults.career_rec}/>
+                    
                     <ReportPageTop attr1={reportResults.attr1} attr2={reportResults.attr2} careerRec={reportResults.career_rec}/>
                     
                     <ReportPageBottom careerRec={reportResults.career_rec} />
