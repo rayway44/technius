@@ -13,7 +13,7 @@ export default function ReportPageBottom({ careerRec }) {
         <div className={styles.reportPageBottomRoot}>
             <div className={styles.box}>
                 <Report className={styles.ReportStyles} />
-                <a href=''><div className={styles.bTesting}>
+                <a href='https://technius.vercel.app/'><div className={styles.bTesting}>
                         CLICK HERE
                 </div></a>
             </div>
