@@ -151,8 +151,10 @@
 .bottomJobsSection{
     border-bottom: 10px dashed rgba(209, 178, 255, 1);
     display: flex;
-    justify-content:center;
+    flex-direction: column;
+    
     width: 60vw;
+    /* border: 10px solid red; */
 }
 
 .bottomJobsLeft{
@@ -167,10 +169,42 @@
     margin:14% 0% 0% 0%;
     /* border: 1px solid white; */
     min-height: 35vh;
-    
 }
 .bottomJobsLeftBottom{
-    /* border: 1px solid green; */
+    /* border: 3px solid green; */
     margin:-20% 0% 5% 0%;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
+.bottomJobsTop{
+    display: flex;
+    justify-content: space-around;
+    /* border: 10px solid yellow; */
+}
+.bottomJobsMiddle{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* border: 10px solid white; */
+    margin:0% 0% 5% 0%;
+}
+.bottomJobsMiddleText{
+    /* border: 10px solid white; */
+    margin:2% 0%;
+}
+
+.jobsHolder{
+    /* border: 10px solid red; */
+}
+
+.bottomJobsMiddleStat{
+    /* border: 10px solid green; */
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.bottomJobsBottom{
+    display: flex;
+    justify-content:space-around;
+}

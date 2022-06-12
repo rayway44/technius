@@ -7,6 +7,11 @@ import skillsSolarSystem from '../../assets/reportAssets/skillsSolarSystem.svg'
 import analytical from '../../assets/reportAssets/analyticlaImage.png'
 import Image from 'next/image'
 
+import middleAttribute1 from '../../assets/reportAssets/middleAttribute1.svg'
+import middleAttribute2 from '../../assets/reportAssets/middleAttribute2.svg'
+import middleAttribute3 from '../../assets/reportAssets/middleAttribute3.svg'
+import middleAttribute4 from '../../assets/reportAssets/middleAttribute4.svg'
+
 import securityAnalystNotes from '../../assets/reportAssets/securityAnalystNotes.png'
 
 import securityAnalystCareer from '../../assets/reportAssets/securityAnalystCareer.svg'
@@ -95,42 +100,45 @@ export default function ReportStudentResults({careerRec}) {
               </span>
         </div>
         
+
         <div className={styles.bottomJobsSection}>
-          
-            <div className={styles.bottomJobsLeft}>
-              {/* left */}
-              <div className={styles.bottomJobsLeftTop}>
-                <Image src={itEntreprenuerCareer}  />
-              </div>
-              <div className={styles.bottomJobsLeftBottom}>
-                <Image src={securityAnalystNotes} />
-              </div>
-
-              <div className={styles.bottomJobsLeftTop}>
-                <Image src={softwareDevelopmentCareer} />
-              </div>
-              <div className={styles.bottomJobsLeftBottom}>
-                <Image src={securityAnalystNotes} />
-              </div>
-
+        
+          <div className={styles.bottomJobsTop}>
+            <div className={styles.jobsHolder}>
               <div className={styles.bottomJobsLeftTop}>
                 <Image src={userExperienceDesignCareer} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
               </div>
+            </div>
 
+            <div className={styles.jobsHolder}>
               <div className={styles.bottomJobsLeftTop}>
-                <Image src={productOwnerCareer} />
+                <Image src={userExperienceDesignCareer} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
               </div>
-
             </div>
+
+          </div>
+
+          <div className={styles.bottomJobsMiddle}>
+            {/* middle */}
+              <div className={styles.bottomJobsMiddleText}> - - - - - Here are other tech jobs to explore - - - - - </div>
+              <div className={styles.bottomJobsMiddleStat}>
+                <Image src={middleAttribute1} />
+                <Image src={middleAttribute2} />
+                <Image src={middleAttribute3} />
+                <Image src={middleAttribute4} />
+              </div>
+
             
-            <div className={styles.bottomJobsRight}>
-              {/* right */}
+          </div>
+          <div className={styles.bottomJobsBottom}>
+
+            <div className={styles.bottomJobsBottomLeft}>
               <div className={styles.bottomJobsLeftTop}>
                 <Image src={itEntreprenuerCareer}  />
               </div>
@@ -158,8 +166,43 @@ export default function ReportStudentResults({careerRec}) {
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
               </div>
-
             </div>
+
+            <div className={styles.bottomJobsBottomRight}>
+              <div className={styles.bottomJobsLeftTop}>
+                <Image src={itEntreprenuerCareer}  />
+              </div>
+              <div className={styles.bottomJobsLeftBottom}>
+                <Image src={securityAnalystNotes} />
+              </div>
+
+              <div className={styles.bottomJobsLeftTop}>
+                <Image src={softwareDevelopmentCareer} />
+              </div>
+              <div className={styles.bottomJobsLeftBottom}>
+                <Image src={securityAnalystNotes} />
+              </div>
+
+              <div className={styles.bottomJobsLeftTop}>
+                <Image src={userExperienceDesignCareer} />
+              </div>
+              <div className={styles.bottomJobsLeftBottom}>
+                <Image src={securityAnalystNotes} />
+              </div>
+
+              <div className={styles.bottomJobsLeftTop}>
+                <Image src={productOwnerCareer} />
+              </div>
+              <div className={styles.bottomJobsLeftBottom}>
+                <Image src={securityAnalystNotes} />
+              </div>
+            </div>
+
+          </div>
+        
+            
+            
+            
             <div> 
           </div>
         </div>
