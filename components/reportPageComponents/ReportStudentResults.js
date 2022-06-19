@@ -23,6 +23,9 @@ import businessAnalystCareer from '../../assets/reportAssets/businessAnalystCare
 import gameDeveloperCareer from '../../assets/reportAssets/gameDeveloperCareer.svg'
 import socialMediaManagerCareer from '../../assets/reportAssets/socialMediaManagerCareer.svg'
 
+import scrumMasterLightBg from '../../assets/reportAssets/scrumMasterLightBg.svg'
+import projectManagerLightBg from '../../assets/reportAssets/projectManagerLightBg.svg'
+
 import dynamic from 'next/dynamic'
 
 export default function ReportStudentResults({careerRec}) {
@@ -38,11 +41,11 @@ export default function ReportStudentResults({careerRec}) {
 
         <div className={styles.mainAttribute}>
 
-            <Image src={mainMan} width={115 * 3} height={189 * 2} alt="picture of an astronaut standing on a planet" />
-            
               <div className={styles.mainAttributeTitle}>
               <span>{careerRec}</span>
             </div>
+            <Image src={mainMan} width={115 * 3} height={189 * 2} alt="picture of an astronaut standing on a planet" />
+            
         </div>
 
         <div className={styles.AttributesTopSection}>
@@ -106,19 +109,19 @@ export default function ReportStudentResults({careerRec}) {
           <div className={styles.bottomJobsTop}>
             <div className={styles.jobsHolder}>
               <div className={styles.bottomJobsLeftTop}>
-                <Image src={userExperienceDesignCareer} />
+                <Image src={scrumMasterLightBg} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
-                <Image src={securityAnalystNotes} />
+                {/* <Image src={securityAnalystNotes} /> */}
               </div>
             </div>
 
             <div className={styles.jobsHolder}>
               <div className={styles.bottomJobsLeftTop}>
-                <Image src={userExperienceDesignCareer} />
+                <Image src={projectManagerLightBg} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
-                <Image src={securityAnalystNotes} />
+                {/* <Image src={securityAnalystNotes} /> */}
               </div>
             </div>
 
@@ -140,21 +143,21 @@ export default function ReportStudentResults({careerRec}) {
 
             <div className={styles.bottomJobsBottomLeft}>
               <div className={styles.bottomJobsLeftTop}>
-                <Image src={itEntreprenuerCareer}  />
+                <Image src={businessAnalystCareer}  />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
               </div>
 
               <div className={styles.bottomJobsLeftTop}>
-                <Image src={softwareDevelopmentCareer} />
+                <Image src={gameDeveloperCareer} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
               </div>
 
               <div className={styles.bottomJobsLeftTop}>
-                <Image src={userExperienceDesignCareer} />
+                <Image src={socialMediaManagerCareer} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
@@ -191,7 +194,7 @@ export default function ReportStudentResults({careerRec}) {
               </div>
 
               <div className={styles.bottomJobsLeftTop}>
-                <Image src={productOwnerCareer} />
+                <Image src={securityAnalystCareer} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
