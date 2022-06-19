@@ -33,6 +33,7 @@
 .mainAttribute{
     /* border: 1px solid white; */
     display: flex;
+    flex-direction: column;
     align-items: center;
     /* width: 60vw; */
 }
@@ -46,7 +47,7 @@
     /* padding: 0% 15% 0% 15%; */
     text-align: center;
     padding: 20px 40px;
-    margin:0% 0% 0% -10%;
+    /* margin:0% 0% 0% -10%; */
     font-size: 2em;
 }
 .mainAttributeTitle span{
