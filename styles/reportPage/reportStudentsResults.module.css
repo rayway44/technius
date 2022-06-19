@@ -4,7 +4,6 @@
   }
 
 .resultsBody{
-    /* border: 28px solid white;   */
     font-family: "dyslexic";
     color:white;
     display: flex;
@@ -16,11 +15,9 @@
 
 .skillsTop{
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .topSection{
-    /* border: 10px solid white; */
     display: flex;
     flex-direction: column;
     text-align:center
@@ -31,23 +28,17 @@
 }
 
 .mainAttribute{
-    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 60vw; */
 }
 
 .mainAttributeTitle{
-
     clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
     background-image: linear-gradient(to left, rgba(88, 3, 216, 0.969), 
     rgba(96, 0, 232, 0.302) );
-    /* width:10vw; */
-    /* padding: 0% 15% 0% 15%; */
     text-align: center;
     padding: 20px 40px;
-    /* margin:0% 0% 0% -10%; */
     font-size: 2em;
 }
 .mainAttributeTitle span{
@@ -75,24 +66,20 @@
     /* justify-content: space-around; */
 }
 .skillsLeftTitle{
-    /* border: 1px solid red; */
     margin:5% 0% 0% 0%;
 }
 
 .AttributesTopSection{
-    /* border: 10px solid red; */
     margin:2% 0% 2% 0%;
 }
 
 
 .skillsLeftSkills{
-    /* border: 4px solid white; */
     display: flex;
     margin:5% 0%;
 }
 
 .skillsLeftSkillsHolder{
-    /* border: 4px solid green; */
     height:100%;
     display: flex;
     flex-direction: column;
@@ -100,16 +87,12 @@
 }
 
 .skillsLeftImage{
-    /* border: 4px solid white; */
     margin-top:2vh;
     min-width:8vw;
     text-align: right;
-    
 }
 
 .skillsLeftContent{
-    /* border: 4px solid red; */
-    /* width: 50%; */
     margin: 0% 0% 0% 2%;
     line-height:3.5vh;
 
@@ -118,14 +101,12 @@
     display: block;
 }
 .skillsLeftContentTitle{
-    /* border: 4px solid red; */
     font-size: 1.4vw;
     font-weight: 700;
     margin: 0% 0% 5% 0%;
 }
 
 .skillsRightImage{
-    /* border: 4px solid white; */
     display: flex;
     align-items: center;
     justify-content:center;
@@ -133,11 +114,9 @@
 }
 
 .skillsRightTitle{
-    /* border: 1px solid white; */
     margin:5% 0% 0% 0%;
 }
 .topJobsSection{
-    /* border: 1px solid white; */
     margin:3% 0% 0% 0%;
 }
 .topJobsSection span{
@@ -153,54 +132,37 @@
     border-bottom: 10px dashed rgba(209, 178, 255, 1);
     display: flex;
     flex-direction: column;
-    
     width: 60vw;
-    /* border: 10px solid red; */
 }
 
-.bottomJobsLeft{
-    /* border: 10px solid red; */
-}
 .bottomJobsRight{
     margin:0% 0% 0% 10%;
-    /* border: 10px solid red; */
 }
 
 .bottomJobsLeftTop{
     margin:14% 0% 0% 0%;
-    /* border: 1px solid white; */
     min-height: 35vh;
 }
 .bottomJobsLeftBottom{
-    /* border: 3px solid green; */
     margin:-20% 0% 5% 0%;
-    /* display: flex; */
-    /* flex-direction: column; */
 }
 
 .bottomJobsTop{
     display: flex;
     justify-content: space-around;
-    /* border: 10px solid yellow; */
 }
 .bottomJobsMiddle{
     display: flex;
     flex-direction: column;
     align-items:center;
-    /* border: 10px solid white; */
     margin:0% 0% 5% 0%;
 }
 .bottomJobsMiddleText{
-    /* border: 10px solid white; */
     margin:2% 0%;
 }
 
-.jobsHolder{
-    /* border: 10px solid red; */
-}
 
 .bottomJobsMiddleStat{
-    /* border: 10px solid green; */
     width: 100%;
     display: flex;
     justify-content:space-between;
