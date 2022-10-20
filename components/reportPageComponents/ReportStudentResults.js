@@ -36,11 +36,7 @@ export default function ReportStudentResults({careerRec}) {
         <div className={styles.topSection}>
             <Image src={spaceman} width={115 * 3} height={189 * 2} alt="picture of an astronaut standing on a planet" />
 
-<<<<<<< HEAD
-            <span>YOU GOT: </span>
-=======
             <span>YOU GOT:</span>
->>>>>>> rayFeature
         </div>
 
         <div className={styles.mainAttribute}>
