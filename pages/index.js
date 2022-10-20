@@ -8,11 +8,14 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import {useRouter} from 'next/router'
 
+<<<<<<< HEAD
 import Link from 'next/link'
 
 // New Report Card Developement
 import NewReportCard from './report/newReportCard'
 
+=======
+>>>>>>> rayFeature
 export default function Home({ userInfo }) {
   const [user, setUser] = useState(userInfo)
   const [signupOpen, setSignupOpen] = useState(false);
@@ -27,6 +30,7 @@ export default function Home({ userInfo }) {
 
 
   return (
+<<<<<<< HEAD
     <div>
 
     {/* <Link href='/Report/newReport'>
@@ -42,6 +46,12 @@ export default function Home({ userInfo }) {
       <Footer />
       </div>
       
+=======
+    <div className={styles.homepageRoot}>
+      <Header user={user} signupOpen={signupOpen} setSignupOpen={setSignupOpen} />
+      <HomepageBody setSignupOpen={setSignupOpen} user={user} />
+      <Footer />
+>>>>>>> rayFeature
     </div>
   )
 }
