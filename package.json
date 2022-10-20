@@ -1,0 +1,30 @@
+{
+  "name": "technius",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 80"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.2",
+    "@popperjs/core": "^2.9.2",
+    "@svgr/webpack": "^5.5.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.4.1",
+    "file-loader": "^6.2.0",
+    "js-cookie": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "next": "11.0.1",
+    "next-image-loader": "^2.0.4",
+    "nodemailer": "^6.6.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-popper": "^2.2.5",
+    "url-loader": "^4.1.1",
+    "uuid": "^3.3.2"
+  }
+}

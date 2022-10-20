@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@300;400&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Krona One', sans-serif; */
+
+.border{
+    border:5px solid white;
+}
+
+
+.body{
+    background-image: url('../../assets/missionAssets/newDevelopement/ReportPortals.png');
+
+    
+    /* border:3px solid red; */
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.topBox{
+    /* border:100px solid red; */
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.orange{
+    color:#FF9E53;
+}
+
+.title{
+    margin:30px 0px 20px 0px;
+    font-size: 160%;
+    font-family: 'Krona One', sans-serif;
+    width:100%;
+}
+
+.careerRec{
+    /* border:2px solid white; */
+    height:90px;
+}
+
+.careerRecBox{
+    border:2px solid #FF9E53;
+    border-radius: 10px;;
+    padding:10px 80px; 
+    font-size: 20px;
+    margin:0px 0px 20px 0px;
+}
+
+.cardOne{
+    /* border:5px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.careerImage{
+    /* border:5px solid red; */
+    width: 70%;
+}
+
+.bottom{
+    /* border:5px solid red; */
+    text-align: center;
+    margin:0px 0px 1% 0px;
+}

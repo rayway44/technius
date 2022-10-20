@@ -1,0 +1,511 @@
+.profileBodyRoot {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 67px;
+    width: 80%;
+    height: 800px;
+    box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    -webkit-box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    -moz-box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileBodyLeft {
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(#3B018C 20%, #fff 20%);
+    box-shadow: 0px 10px 10px #00000012;
+    border-radius: 67px 0 0 67px;
+}
+
+.profileImageDiv {
+    text-align: center;
+    margin-top: 2rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.profileUpdater{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    color: #3D337C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profileUpdaterInput {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    color: #3B018C;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    width: 90%;
+}
+
+.profileUpdaterInput::placeholder {
+    color: #3B018C;
+    font-size: 18px;
+}
+
+.profileUpdaterInputSmall {
+    width: 80%;
+    min-width: 125px;
+}
+
+.profileUpdaterInnerDiv {
+    width: 100%;
+}
+
+.profileBodyRight {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 10px #00000012;
+    border-radius: 42px;
+    height: 100%;
+    width: 62%;
+    padding: 2rem;
+    color: #3D337C;
+}
+
+.profileRightHeaders {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myClasses {
+    font-size: 22px;
+}
+
+.addClassDiv {
+    background: #FF7C00;
+    display: flex;
+    align-items: center;
+    border-radius: 27px;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+}
+
+.addClassButton {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.18px;
+}
+
+.addClassDiv:hover {
+    opacity: 0.7;
+}
+
+.addClassModal {
+    background: #fff;
+    color: #462482;
+}
+
+.addClassModalHeader {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    box-shadow: 0px 3px 6px #00000012;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addClassNameDiv {
+    padding: 3rem;
+    font-size: 18px;
+}
+
+.addClassInput {
+    width: 60%;
+    font-size: 18px;
+}
+
+.addClassNextButton {
+    width: 100%;
+    height: 70px;
+    background: #FF7C00;
+    font-family: 'Nasalization';
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.addClassNextButton:hover {
+    opacity: 0.7;
+}
+
+.classesList {
+    margin-top : 4rem;
+    height: 80%;
+    overflow: auto;
+}
+
+.classRoot {
+    background: #F5F9FF;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.className {
+    display: flex;
+    align-items: center;
+    color: #3B018C;
+    font-size: 22px;
+}
+
+.className span {
+    margin-right: 1rem;
+}
+
+.editIconDiv {
+    cursor: pointer;
+}
+
+.editIconDiv:hover {
+    opacity: 0.7;
+}
+
+.inviteStudentsDiv {
+    background: #3B018C;
+    display: flex;
+    align-items: center;
+    border-radius: 27px;
+    padding: 0.7rem 2rem;
+    cursor: pointer;
+}
+
+.inviteStudentsDiv:hover {
+    opacity: 0.7;
+}
+
+.inviteStudentsButton {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.18px;
+}
+
+.inviteStudentsInputAndIcon {
+    display: flex;
+    align-items: center;
+}
+.inviteStudentsInputAndIcon input {
+    margin-right: 1rem;
+}
+.inviteStudentsInputAndIcon img {
+    cursor: pointer;
+}
+
+.inviteStudentsInputAndIcon img:hover {
+    opacity: 0.7;
+}
+
+.clipboardAlert {
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.inviteButton {
+    margin-top: 2.5rem;
+    background: #FF7C00;
+    border: 0;
+    border-radius: 27px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.8rem 2.5rem;
+    cursor: pointer;
+    letter-spacing: 0.18px;
+}
+
+.inviteButton:hover {
+    opacity: 0.7;
+}
+
+.studentListTextarea {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    padding: 0.5rem;
+    color: #3B018C;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    border: none;
+    resize: none;
+}
+
+.studentListTextarea::placeholder {
+    color: #3B018C;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+.studentInviteError {
+    color: red;
+}
+
+.updateInformationButton {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    background: #3B018C 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.updateInformationButton:hover {
+    opacity: 0.7;
+}
+
+.responseMessage {
+    color: #3B018C;
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.buttonDisabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+@media (max-width: 1920px) {
+    .profileBodyRoot {
+        border-radius: 3.5vw;
+        width: 80%;
+        height: 41vw;
+        padding: 1.6vw;
+    }
+    
+    .profileBodyLeft {
+        width: 35%;
+        height: 100%;
+        border-radius: 3.5vw 0 0 3.5vw;
+    }
+    
+    .profileImageDiv {
+        text-align: center;
+        margin-top: 1.6vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .profileImageDiv img {
+        width: 10.5vw;
+    }
+    
+    .profileUpdater{
+        display: flex;
+        justify-content: space-between;
+        padding: 0.8vw 1.5vw;
+        color: #3D337C;
+        font-size: 1vw;
+        font-weight: bold;
+    }
+    
+    .profileUpdaterInput {
+        border-radius: 0.2vw;
+        margin-top: 0.4vw;
+        font-size: 1vw;
+        color: #3B018C;
+        padding-top: 0.4vw;
+        padding-bottom: 0.4vw;
+        padding-left: 0.4vw;
+        width: 90%;
+    }
+    
+    .profileUpdaterInput::placeholder {
+        color: #3B018C;
+        font-size: 1vw;
+    }
+    
+    .profileUpdaterInputSmall {
+        width: 80%;
+        min-width: 9vw;
+    }
+    
+    .profileUpdaterInnerDiv {
+        width: 100%;
+    }
+    
+    .profileBodyRight {
+        border-radius: 2vw;
+        height: 100%;
+        width: 62%;
+        padding: 1.6vw;
+        color: #3D337C;
+    }
+    
+    .myClasses {
+        font-size: 1.2vw;
+    }
+    
+    .addClassDiv {
+        border-radius: 1.5vw;
+        padding: 0.6vw 1.8vw;
+    }
+    
+    .addClassButton {
+        font-size: 1vw;
+    }
+    
+    .addClassModal {
+        width: 31vw;
+    }
+
+    .addClassModalHeader {
+        font-size: 2.1vw;
+        box-shadow: 0px 3px 6px #00000012;
+        height: 4.2vw;
+    }
+    
+    .addClassNameDiv {
+        padding: 2.5vw;
+        font-size: 1vw;
+    }
+
+    .addClassDiv img {
+        width: 1.5vw
+    }
+    
+    .addClassInput {
+        width: 60%;
+        font-size: 1vw;
+    }
+    
+    .addClassNextButton {
+        width: 100%;
+        height: 3.6vw;
+        font-size: 1.3vw;
+        margin-top: 1.8vw;
+    }
+    
+    .classesList {
+        margin-top : 3.4vw;
+        height: 80%;
+        overflow: auto;
+    }
+    
+    .classRoot {
+        width: 100%;
+        height: 4.2vw;
+        padding: 0.8vw;
+        margin-bottom: 2.5vw;
+    }
+    
+    .className {
+        display: flex;
+        align-items: center;
+        color: #3B018C;
+        font-size: 1.1vw;
+    }
+
+    .className img {
+        width: 1.2vw;
+    }
+    
+    .className span {
+        margin-right: 1vw;
+    }
+    
+    .editIconDiv {
+        cursor: pointer;
+    }
+    
+    .inviteStudentsDiv {
+        border-radius: 1.5vw;
+        padding: 0.6vw 1.7vw;
+    }
+
+    .inviteStudentsInputAndIcon img {
+        width: 1.1vw
+    }
+
+    .inviteStudentsDiv img {
+        width: 1.5vw
+    }
+    
+    .inviteStudentsButton {
+        font-size: 1vw;
+    }
+    
+    .inviteStudentsInputAndIcon input {
+        margin-right: 1vw;
+    }
+    .inviteStudentsInputAndIcon img {
+        cursor: pointer;
+    }
+    
+    .clipboardAlert {
+        margin-top: 0.4vw;
+        margin-bottom: -1.5vw;
+    }
+    
+    .inviteButton {
+        margin-top: 2vw;
+        border-radius: 1.5vw;
+        font-size: 1vw;
+        padding: 0.7vw 2.2vw;
+    }
+    
+    .studentListTextarea {
+        border-radius: 0.5vw;
+        width: 100%;
+        height: 8vw;
+        padding: 0.4vw;
+        font-size: 1vw;
+    }
+    
+    .studentListTextarea::placeholder {
+        font-size: 1vw;
+    }
+
+    .updateInformationButton {
+        margin-top: 0.9vw;
+        margin-left: 1.7vw;
+        border-radius: 1.5vw;
+        font-size: 0.9vw;
+        padding: 0.8vw 1.7vw;
+    }
+
+    .responseMessage {
+        color: #3B018C;
+        margin-left: 2vw;
+        margin-top: 0.3vw;
+        font-size: 0.8vw;
+    }
+}

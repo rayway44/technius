@@ -1,0 +1,109 @@
+.pastReportsBodyRoot {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 67px;
+    width: 80%;
+    height: 800px;
+    box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    -webkit-box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    -moz-box-shadow: 0px 9px 23px 10px rgba(230,234,240,1);
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.pastReportsHeader {
+    color: #3D337C;
+    font-size: 40px;
+    padding: 2rem;
+    font-weight: 500;
+}
+
+.pastReportsBodyDiv {
+    padding: 1rem 2rem;
+}
+
+.pastReportsHistoryHeader {
+    color: #3B018C;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.65;
+}
+
+.pastReportsListDiv {
+    padding-top: 1rem;
+    color: #3B018C;
+    font-weight: bold;
+    font-size: 18px;
+    overflow: auto;
+}
+
+.pastReportsList {
+    background: #F5F9FF;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.viewReportButton {
+    background: #3B018C;
+    display: flex;
+    align-items: center;
+    border-radius: 27px;
+    padding: 0.8rem 2.5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+}
+
+.viewReportButton:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 1920px) {
+    .pastReportsBodyRoot {
+        border-radius: 3.5vw;
+        width: 80%;
+        height: 42vw;
+        padding: 1.6vw;
+    }
+    
+    .pastReportsHeader {
+        font-size: 2vw;
+        padding: 1.8vw;
+    }
+    
+    .pastReportsBodyDiv {
+        padding: 1vw 1.8vw;
+        height: 100%;
+    }
+    
+    .pastReportsHistoryHeader {
+        font-size: 1vw;
+    }
+    
+    .pastReportsListDiv {
+        margin-top: 1vw;
+        height: 80%;
+        font-size: 1vw;
+        overflow: auto;
+    }
+    
+    .pastReportsList {
+        width: 100%;
+        height: 4vw;
+        padding: 0.8vw;
+        margin-bottom: 2.5vw;
+    }
+    
+    .viewReportButton {
+        border-radius: 1.5vw;
+        padding: 0.7vw 2.5vw;
+        font-size: 0.9vw;
+    }
+}
