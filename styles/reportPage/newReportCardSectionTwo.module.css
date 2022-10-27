@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@300;400&display=swap');
+
+
+.body{
+    /* width:40%; */
+    /* border:3px solid red; */
+    color:white;
+    background-image: url('../../assets/missionAssets/newDevelopement/image18.png'),url('../../assets/missionAssets/newDevelopement/ReportPortals.png');
+    background-repeat: no-repeat;
+    background-position: right top,left ;
+    background-size: 30%, cover ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bodyWrapper{
+    /* border:13px solid yellow; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* justify-content: center; */
+}
+
+.border{
+    border:3px solid yellow;
+}
+.top{
+    /* border:3px yellow solid; */
+    display: flex;
+    margin: 1% 0;
+}
+.topLeft{
+    /* border:3px red solid; */
+    width: 50%;
+    font-family: 'Krona One', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.orange{
+    color:#FF9A61;
+}
+.topRight{
+    /* border:3px red solid; */
+    width: 50%;
+}
+.middle{
+    /* border:13px solid green; */
+    display: flex;
+    justify-content: center;
+}
+.middleLeft{
+    /* border:3px red solid; */
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+    /* text-align: center; */
+}
+.middleLeftImage{
+    /* border:13px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 10%; */
+    /* object-fit: contain; */
+}
+.middleLeftLeft{
+    width: 80%;
+    /* border:13px solid red; */
+}
+.middleLefRight{
+    width: 20%;
+    /* border:13px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:-10%;
+}
+.middleRight{
+    /* border:3px red solid; */
+    /* width: auto; */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:2%;
+    /* align-items: center; */
+}
+
+.middleRightHeading{
+    margin:2% 0;
+    font-size: 2em;
+}
+
+.middleRightContent{
+    font-size: .9em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ======== FONT STYLING ========= */
+
+.krona{
+    font-family: 'Krona One', sans-serif;
+}

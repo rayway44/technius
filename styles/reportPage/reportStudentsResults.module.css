@@ -4,7 +4,10 @@
   }
 
 .resultsBody{
+<<<<<<< HEAD
     /* border: 28px solid white;   */
+=======
+>>>>>>> newDev
     font-family: "dyslexic";
     color:white;
     display: flex;
@@ -16,11 +19,17 @@
 
 .skillsTop{
     display: flex;
+<<<<<<< HEAD
     /* flex-wrap: wrap; */
 }
 
 .topSection{
     /* border: 10px solid white; */
+=======
+}
+
+.topSection{
+>>>>>>> newDev
     display: flex;
     flex-direction: column;
     text-align:center
@@ -31,6 +40,7 @@
 }
 
 .mainAttribute{
+<<<<<<< HEAD
     /* border: 1px solid white; */
     display: flex;
     align-items: center;
@@ -47,6 +57,19 @@
     text-align: center;
     padding: 20px 40px;
     margin:0% 0% 0% -10%;
+=======
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainAttributeTitle{
+    clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+    background-image: linear-gradient(to left, rgba(88, 3, 216, 0.969), 
+    rgba(96, 0, 232, 0.302) );
+    text-align: center;
+    padding: 20px 40px;
+>>>>>>> newDev
     font-size: 2em;
 }
 .mainAttributeTitle span{
@@ -74,24 +97,36 @@
     /* justify-content: space-around; */
 }
 .skillsLeftTitle{
+<<<<<<< HEAD
     /* border: 1px solid red; */
+=======
+>>>>>>> newDev
     margin:5% 0% 0% 0%;
 }
 
 .AttributesTopSection{
+<<<<<<< HEAD
     /* border: 10px solid red; */
+=======
+>>>>>>> newDev
     margin:2% 0% 2% 0%;
 }
 
 
 .skillsLeftSkills{
+<<<<<<< HEAD
     /* border: 4px solid white; */
+=======
+>>>>>>> newDev
     display: flex;
     margin:5% 0%;
 }
 
 .skillsLeftSkillsHolder{
+<<<<<<< HEAD
     /* border: 4px solid green; */
+=======
+>>>>>>> newDev
     height:100%;
     display: flex;
     flex-direction: column;
@@ -99,6 +134,7 @@
 }
 
 .skillsLeftImage{
+<<<<<<< HEAD
     /* border: 4px solid white; */
     margin-top:2vh;
     min-width:8vw;
@@ -109,6 +145,14 @@
 .skillsLeftContent{
     /* border: 4px solid red; */
     /* width: 50%; */
+=======
+    margin-top:2vh;
+    min-width:8vw;
+    text-align: right;
+}
+
+.skillsLeftContent{
+>>>>>>> newDev
     margin: 0% 0% 0% 2%;
     line-height:3.5vh;
 
@@ -117,14 +161,20 @@
     display: block;
 }
 .skillsLeftContentTitle{
+<<<<<<< HEAD
     /* border: 4px solid red; */
+=======
+>>>>>>> newDev
     font-size: 1.4vw;
     font-weight: 700;
     margin: 0% 0% 5% 0%;
 }
 
 .skillsRightImage{
+<<<<<<< HEAD
     /* border: 4px solid white; */
+=======
+>>>>>>> newDev
     display: flex;
     align-items: center;
     justify-content:center;
@@ -132,11 +182,17 @@
 }
 
 .skillsRightTitle{
+<<<<<<< HEAD
     /* border: 1px solid white; */
     margin:5% 0% 0% 0%;
 }
 .topJobsSection{
     /* border: 1px solid white; */
+=======
+    margin:5% 0% 0% 0%;
+}
+.topJobsSection{
+>>>>>>> newDev
     margin:3% 0% 0% 0%;
 }
 .topJobsSection span{
@@ -152,6 +208,7 @@
     border-bottom: 10px dashed rgba(209, 178, 255, 1);
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     
     width: 60vw;
     /* border: 10px solid red; */
@@ -163,10 +220,18 @@
 .bottomJobsRight{
     margin:0% 0% 0% 10%;
     /* border: 10px solid red; */
+=======
+    width: 60vw;
+}
+
+.bottomJobsRight{
+    margin:0% 0% 0% 10%;
+>>>>>>> newDev
 }
 
 .bottomJobsLeftTop{
     margin:14% 0% 0% 0%;
+<<<<<<< HEAD
     /* border: 1px solid white; */
     min-height: 35vh;
 }
@@ -175,17 +240,27 @@
     margin:-20% 0% 5% 0%;
     /* display: flex; */
     /* flex-direction: column; */
+=======
+    min-height: 35vh;
+}
+.bottomJobsLeftBottom{
+    margin:-20% 0% 5% 0%;
+>>>>>>> newDev
 }
 
 .bottomJobsTop{
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     /* border: 10px solid yellow; */
+=======
+>>>>>>> newDev
 }
 .bottomJobsMiddle{
     display: flex;
     flex-direction: column;
     align-items:center;
+<<<<<<< HEAD
     /* border: 10px solid white; */
     margin:0% 0% 5% 0%;
 }
@@ -200,6 +275,16 @@
 
 .bottomJobsMiddleStat{
     /* border: 10px solid green; */
+=======
+    margin:0% 0% 5% 0%;
+}
+.bottomJobsMiddleText{
+    margin:2% 0%;
+}
+
+
+.bottomJobsMiddleStat{
+>>>>>>> newDev
     width: 100%;
     display: flex;
     justify-content:space-between;
