@@ -38,6 +38,7 @@
     font-family: 'Krona One', sans-serif;
     font-size: 3em;
     margin:3% 0 3% 0;
+    text-align: center;
 }
 .topContent{
     font-family: 'Poppins', sans-serif;
@@ -53,7 +54,8 @@
     margin:0 0 3% 0;
 }
 .secondContent{
-    border:3px solid yellow;
+    border:3px solid #1a133fa1;
+    border-radius: 10px;
     height: 100%;
     width: 70%;
     margin:0 0 2% 0;
