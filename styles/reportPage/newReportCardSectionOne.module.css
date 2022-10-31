@@ -1,0 +1,124 @@
+.root {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* border: 1px solid rebeccapurple; */
+  width: 71rem;
+  height: 40rem;
+  background-image: url("../../assets/missionAssets/newDevelopement/reportPageSection1/Frame.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.innerSection {
+  display: flex;
+  /* gap: 0.5rem; */
+  /* border: 1px solid rebeccapurple; */
+  color: #fff;
+  width: 80%;
+  height: 77%;
+  margin: 4rem auto 0;
+  /* padding: 0.5rem 0.5rem 0.5rem; */
+}
+/* sidebar button */
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  align-items: center;
+  /* border: 1px solid rebeccapurple; */
+  width: 20%;
+  height: 100%;
+  list-style: none;
+  padding: 1rem 0.7rem 0;
+  text-align: center;
+  /* need adjust */
+}
+.sideBar button {
+  width: 100%;
+  font: bold 0.9rem;
+  /* font-weight: 500; */
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 1.6rem 0;
+  background: rgba(192, 196, 255, 0.2);
+}
+.sideBar button:focus {
+  /* width: 100%;
+  margin: 0; */
+  color: #f19552;
+  border: 1px solid #f19552;
+  /* border-radius: 5px;
+  padding: 1.5rem 0; */
+  /* background: rgba(192, 196, 255, 0.2); */
+}
+/* right section */
+.rightSection {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.imgSection {
+  padding: 0.5rem 2rem;
+  width: 60%;
+  overflow: hidden;
+}
+.imgSection h2 {
+  /* padding: 0.5rem 2rem; */
+  height: 10%;
+  margin: 0;
+  font-weight: 500;
+  color: #f19552;
+}
+.imgSection h2 span {
+  color: #fff;
+}
+.imgSection p {
+  height: 10%;
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.2rem;
+  color: #d9d9d9;
+}
+/* adjust image difference */
+.imgSection .designer {
+  margin-bottom: 2rem;
+}
+.imgSection .developer {
+  margin-bottom: -5rem;
+}
+.imgSection .engineer {
+  margin-bottom: -5rem;
+}
+.imgSection .manager {
+  margin-bottom: 1rem;
+}
+.imgSection .investigator {
+  margin-bottom: 1rem;
+}
+
+.cardSection {
+  padding: 8rem 0 0 20px;
+  width: 40%;
+}
+.cardSection h3 {
+  margin: 0;
+}
+
+.cardSection h6 {
+  margin-bottom: 0.5rem;
+  color: #d9d9d9;
+}
+.cardSection p {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.2rem;
+  color: #d9d9d9;
+}

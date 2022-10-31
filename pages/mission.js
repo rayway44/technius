@@ -81,7 +81,11 @@ export default function Mission({userInfo}) {
             <Dialog maxWidth='sm' open={openExitDialog} onClose={() => setOpenExitDialog(false)}>
                 <div className={styles.exitModal}>
                     <div className={styles.exitHeader}>
+<<<<<<< HEAD
+                        EXIT GAME
+=======
                         EXIT GAME 
+>>>>>>> newDev
                     </div>
                     <div className={styles.exitBodyText}>
                         Are you sure you want to leave your mission?<br/>
@@ -118,12 +122,18 @@ export default function Mission({userInfo}) {
                 </div>
                 <div className={styles.exitButtonDiv}>
                     <button onClick={() => setOpenExitDialog(true)} className={styles.exitButton}></button>
+<<<<<<< HEAD
+=======
                     
+>>>>>>> newDev
                 </div>
                     {<Scene />}
                 <div className={styles.frameStyle}>
                     <Image className={styles.imgStyle} src={frame} />
+<<<<<<< HEAD
+=======
                     
+>>>>>>> newDev
                 </div>
             </div>
         </div>
