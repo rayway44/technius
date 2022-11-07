@@ -12,7 +12,7 @@ export default function overview() {
               <Image src={ImageTwo} layout="fixed" />
             </div>
             <div className={Style.middleRightHeading}>
-              <span  className={Style.krona}>
+              <span className={Style.krona}>
                 OVERVIEW
               </span>
 

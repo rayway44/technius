@@ -81,7 +81,7 @@ export default function Mission({userInfo}) {
             <Dialog maxWidth='sm' open={openExitDialog} onClose={() => setOpenExitDialog(false)}>
                 <div className={styles.exitModal}>
                     <div className={styles.exitHeader}>
-                        EXIT GAME
+                        EXIT GAME 
                     </div>
                     <div className={styles.exitBodyText}>
                         Are you sure you want to leave your mission?<br/>

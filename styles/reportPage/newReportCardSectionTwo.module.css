@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:wght@200;300;400;700&display=swap');
 
 
 .body{
@@ -20,6 +20,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 90%;
     /* justify-content: center; */
 }
@@ -78,9 +79,12 @@
     justify-content: space-evenly;
     margin-left:-10%;
 }
+.middleLefRight div:hover{
+    cursor: pointer;
+}
 .middleRight{
     /* border:3px red solid; */
-    /* width: auto; */
+    width: 50%;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -90,12 +94,15 @@
 }
 
 .middleRightHeading{
+    /* border:3px red solid; */
     margin:2% 0;
-    font-size: 2em;
+    width: 80%;
+    font-size: 4vw;
 }
 
 .middleRightContent{
-    font-size: .9em;
+    font-size: 1.1vw;
+    font-weight: 200;
     font-family: 'Poppins', sans-serif;
 }
 
