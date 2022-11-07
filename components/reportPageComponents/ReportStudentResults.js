@@ -23,12 +23,9 @@ import businessAnalystCareer from '../../assets/reportAssets/businessAnalystCare
 import gameDeveloperCareer from '../../assets/reportAssets/gameDeveloperCareer.svg'
 import socialMediaManagerCareer from '../../assets/reportAssets/socialMediaManagerCareer.svg'
 
-<<<<<<< HEAD
-=======
 import scrumMasterLightBg from '../../assets/reportAssets/scrumMasterLightBg.svg'
 import projectManagerLightBg from '../../assets/reportAssets/projectManagerLightBg.svg'
 
->>>>>>> newDev
 import dynamic from 'next/dynamic'
 
 export default function ReportStudentResults({careerRec}) {
@@ -39,28 +36,16 @@ export default function ReportStudentResults({careerRec}) {
         <div className={styles.topSection}>
             <Image src={spaceman} width={115 * 3} height={189 * 2} alt="picture of an astronaut standing on a planet" />
 
-<<<<<<< HEAD
-            <span>YOU GOT:</span>
-=======
             <span>YOU GOT: </span>
->>>>>>> newDev
         </div>
 
         <div className={styles.mainAttribute}>
 
-<<<<<<< HEAD
-            <Image src={mainMan} width={115 * 3} height={189 * 2} alt="picture of an astronaut standing on a planet" />
-            
-              <div className={styles.mainAttributeTitle}>
-              <span>{careerRec}</span>
-            </div>
-=======
               <div className={styles.mainAttributeTitle}>
               <span>{careerRec}</span>
             </div>
             <Image src={mainMan} width={115 * 3} height={189 * 2} alt="picture of an astronaut standing on a planet" />
             
->>>>>>> newDev
         </div>
 
         <div className={styles.AttributesTopSection}>
@@ -124,33 +109,19 @@ export default function ReportStudentResults({careerRec}) {
           <div className={styles.bottomJobsTop}>
             <div className={styles.jobsHolder}>
               <div className={styles.bottomJobsLeftTop}>
-<<<<<<< HEAD
-                <Image src={userExperienceDesignCareer} />
-              </div>
-              <div className={styles.bottomJobsLeftBottom}>
-                <Image src={securityAnalystNotes} />
-=======
                 <Image src={scrumMasterLightBg} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 {/* <Image src={securityAnalystNotes} /> */}
->>>>>>> newDev
               </div>
             </div>
 
             <div className={styles.jobsHolder}>
               <div className={styles.bottomJobsLeftTop}>
-<<<<<<< HEAD
-                <Image src={userExperienceDesignCareer} />
-              </div>
-              <div className={styles.bottomJobsLeftBottom}>
-                <Image src={securityAnalystNotes} />
-=======
                 <Image src={projectManagerLightBg} />
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 {/* <Image src={securityAnalystNotes} /> */}
->>>>>>> newDev
               </div>
             </div>
 
@@ -172,33 +143,21 @@ export default function ReportStudentResults({careerRec}) {
 
             <div className={styles.bottomJobsBottomLeft}>
               <div className={styles.bottomJobsLeftTop}>
-<<<<<<< HEAD
-                <Image src={itEntreprenuerCareer}  />
-=======
                 <Image src={businessAnalystCareer}  />
->>>>>>> newDev
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
               </div>
 
               <div className={styles.bottomJobsLeftTop}>
-<<<<<<< HEAD
-                <Image src={softwareDevelopmentCareer} />
-=======
                 <Image src={gameDeveloperCareer} />
->>>>>>> newDev
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
               </div>
 
               <div className={styles.bottomJobsLeftTop}>
-<<<<<<< HEAD
-                <Image src={userExperienceDesignCareer} />
-=======
                 <Image src={socialMediaManagerCareer} />
->>>>>>> newDev
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />
@@ -235,11 +194,7 @@ export default function ReportStudentResults({careerRec}) {
               </div>
 
               <div className={styles.bottomJobsLeftTop}>
-<<<<<<< HEAD
-                <Image src={productOwnerCareer} />
-=======
                 <Image src={securityAnalystCareer} />
->>>>>>> newDev
               </div>
               <div className={styles.bottomJobsLeftBottom}>
                 <Image src={securityAnalystNotes} />

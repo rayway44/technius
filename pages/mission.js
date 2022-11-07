@@ -118,18 +118,10 @@ export default function Mission({userInfo}) {
                 </div>
                 <div className={styles.exitButtonDiv}>
                     <button onClick={() => setOpenExitDialog(true)} className={styles.exitButton}></button>
-<<<<<<< HEAD
-=======
-                    
->>>>>>> newDev
                 </div>
                     {<Scene />}
                 <div className={styles.frameStyle}>
                     <Image className={styles.imgStyle} src={frame} />
-<<<<<<< HEAD
-=======
-                    
->>>>>>> newDev
                 </div>
             </div>
         </div>

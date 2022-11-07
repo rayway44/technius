@@ -12,6 +12,7 @@ import ImageFive from '../../assets/missionAssets/newDevelopement/Group102.png'
 import ImageSix from '../../assets/missionAssets/newDevelopement/image19.png'
 
 export default function NewReportCard() {
+
   return (
     <div>
           <div className={Style.body} >
