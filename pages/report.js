@@ -14,6 +14,8 @@ export default function report({userInfo, reportResults}) {
     const [results, setResults] = useState(reportResults)
     const [query, setQuery] = useState('')
 
+    console.log(reportResults)
+
     useEffect(() => {
         if (userInfo.verified_email === 0) {
           router.push('/verify')
