@@ -9,6 +9,7 @@ export default function investigator() {
     <div className={styles.rightSection}>
       <div className={styles.imgSection}>
         <h2>
+          {/* MAKING A COMMENT FOR PUSH */}
           <span>Our</span> Investigator
         </h2>
         <p className={styles.investigator}>
